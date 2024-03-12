@@ -1,5 +1,21 @@
 <header class="header">
   <div class="container header__div">
+    <div class="header__menu-wrap">
+      <a href="../index.html" class="header__mobile-logo">
+        <svg>
+          <use href="../img/symbol-defs.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="header__burger-icon" width="24" height="16">
+          <use href="../img/symbol-defs.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
     <a href="../index.html" class="header__logo">
       <svg>
         <use href="../img/symbol-defs.svg#icon-logo"></use>
@@ -22,22 +38,6 @@
       </ul>
     </nav>
     <button class="header__button">consultation by phone</button>
-  </div>
-  <div class="header__menu-wrap">
-    <a href="../index.html" class="header__mobile-logo">
-      <svg>
-        <use href="../img/symbol-defs.svg#icon-logo"></use>
-      </svg>
-    </a>
-    <button
-      class="menu-toggle js-open-menu"
-      aria-expanded="false"
-      aria-controls="mobile-menu"
-    >
-      <svg class="header__burger-icon" width="24" height="16">
-        <use href="../img/symbol-defs.svg#icon-menu"></use>
-      </svg>
-    </button>
   </div>
 </header>
 
