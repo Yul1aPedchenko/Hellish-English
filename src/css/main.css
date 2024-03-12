@@ -50,11 +50,6 @@ img {
   height: auto;
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-}
-
 .container {
   max-width: 320px;
   padding-left: 15px;
