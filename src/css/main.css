@@ -66,4 +66,8 @@ img {
   .container {
     max-width: 1344px;
   }
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
