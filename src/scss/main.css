@@ -21,8 +21,7 @@ a {
 }
 
 body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 button {
@@ -36,8 +35,7 @@ html {
 *,
 ::after,
 ::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -57,17 +55,13 @@ img {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 718px) {
   .container {
-    max-width: 768px;
+    max-width: 718px;
   }
 }
 @media screen and (min-width: 1344px) {
   .container {
     max-width: 1344px;
   }
-}
-body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
