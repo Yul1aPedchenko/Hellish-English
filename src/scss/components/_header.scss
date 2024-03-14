@@ -1,0 +1,38 @@
+.header {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.header__menu-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 1344px) {
+  .header__logo {
+    display: none;
+  }
+  .header__nav {
+    display: none;
+  }
+  .contacts-list {
+    display: none;
+  }
+  .header__button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1344px) {
+  .header__menu-wrap {
+    display: none;
+  }
+}
