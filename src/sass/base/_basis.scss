@@ -24,6 +24,11 @@ img {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 480px;
+    }
+}
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -39,5 +44,4 @@ img {
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    background-color: skyblue;
 }
