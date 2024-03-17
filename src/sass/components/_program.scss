@@ -1,4 +1,4 @@
- .program {
+.program {
   background-image: url(../img/program/program-bg-mobile.png),
     -webkit-image-set(url(../img/program/program-bg-mobile.webp) 1x, url(../img/program/program-bg-mobile@2x.webp)
           2x),
@@ -7,8 +7,9 @@
       url(../img/program/program-bg-mobile@2x.png) 2x
     );
   background-repeat: no-repeat;
-  background-position: 1460px, right;
- background-color: $titleColor;
+  background-position-y: 1460px;
+  background-position-x: right;
+  background-color: $titleColor;
   padding-top: 50px;
   padding-bottom: 550px;
   text-align: center;
@@ -20,18 +21,27 @@
     line-height: 130%;
     letter-spacing: 0.03em;
     color: $secondaryTextColor;
+    margin-bottom: 30px;
   }
-  &__big-line {
-    border: 3px solid $secondaryTextColor;
+  &__subwrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  &__small-line {
     height: 1282px;
+    border: 1.5px solid $secondaryTextColor;
+    margin-right: 26px;
+    margin-top: 14px;
+    margin-left: 30px;
     width: 0;
-    margin-top: 69px;
   }
 }
 .semester {
   text-align: left;
-  &:first-child {
-    margin-top: 30px;
+  width: 176px;
+  &:not(:first-child) {
+    margin-top: 40px;
   }
   &__title {
     font-weight: 700;
@@ -40,15 +50,33 @@
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: $secondaryTextColor;
+    position: relative;
+    margin-bottom: 11px;
+  }
+  &__title::before {
+    content: '';
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: $accentColor;
+    border-radius: 50%;
+    left: -34px;
+    top: 8px;
+    position: absolute;
+  }
+  &__item {
+    margin-top: 14px;
   }
   &__wrap {
     display: flex;
     align-items: center;
+    height: 20px;
+    margin-bottom: 11px;
   }
   &__line {
     width: 20px;
     height: 2px;
-    background-color: $AccentColor;
+    background-color: $accentColor;
     margin-right: 5px;
   }
   &__subtitle {
@@ -56,14 +84,19 @@
     font-size: 12px;
     line-height: 165%;
     letter-spacing: 0.08em;
-    color: $AccentColor;
+    color: $accentColor;
   }
-  &__subitem {
+  &__text {
     font-weight: 500;
     font-size: 12px;
     line-height: 167%;
     letter-spacing: 0.08em;
     color: $textColor;
+  }
+}
+@media screen and (max-width: 1344px) {
+  .program__big-line {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
@@ -75,7 +108,7 @@
         url(../img/program/program-bg-tablet.png) 1x,
         url(../img/program/program-bg-tablet@2x.png) 2x
       );
-    background-position: 792px right;
+    background-position-y: 792px;
   }
 }
 
@@ -88,8 +121,10 @@
         url(../img/program/program-bg-desktop.png) 1x,
         url(../img/program/program-bg-desktop@2x.png) 2x
       );
-    background-position: bottom left;
+    background-position-y: bottom;
+    background-position-x: left;
+  }
+  .program__small-line {
+    display: none;
   }
 }
-
-
