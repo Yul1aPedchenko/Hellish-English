@@ -5,13 +5,12 @@
     display: flex;
     align-items: center;
     width: 214px;
-    margin: 0 auto;
   }
   &__item:not(:last-child) {
     margin-bottom: 30px;
   }
   &__icon {
-    fill: $accentColor;
+    fill: $AccentColor;
     width: 60px;
     height: 60px;
   }
@@ -34,9 +33,6 @@
       display: flex;
       justify-content: space-between;
     }
-    &__item {
-      margin: 0 0;
-    }
     &__item:not(:last-child) {
       margin-bottom: 0;
     }
@@ -57,7 +53,8 @@
     &__text {
       font-size: 20px;
       margin-left: -19px;
-      width: 239px;
+      width: 238px;
     }
   }
 }
+
