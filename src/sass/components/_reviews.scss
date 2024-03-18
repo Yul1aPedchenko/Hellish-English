@@ -1,0 +1,37 @@
+.reviews{
+
+    &__title{
+        font-family: 'Montserrat';
+font-weight: 800;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0.03em;
+text-align: center;
+color: #111518;
+
+&__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+&__name{
+    font-family: 'Montserrat';
+font-weight: 800;
+font-size: 30px;
+letter-spacing: 0.08em;
+color: #ff6b09;
+}
+    }
+    
+
+
+
+
+
+
+
+
+
+
+}
