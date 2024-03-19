@@ -9,7 +9,15 @@
   justify-content: space-between;
   padding: 0 15px;
 }
+.header__mobile-logo {
+  width: 80px;
+  height: 90px;
+  display: flex;
+}
 @media screen and (max-width: 767px) {
+  .header__menu-btn {
+    display: none;
+  }
 }
 @media screen and (max-width: 1344px) {
   .header__wrap {
