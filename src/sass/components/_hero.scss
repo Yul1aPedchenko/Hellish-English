@@ -18,6 +18,10 @@
   background-size: auto, auto, auto, cover;
   padding-bottom: 232px;
 }
+.hero__wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
 .hero__title {
   font-weight: 800;
   font-size: 20px;
@@ -65,4 +69,5 @@
   color: $secondaryTextColor;
   border: none;
   cursor: pointer;
+  margin: 0 auto;
 }
