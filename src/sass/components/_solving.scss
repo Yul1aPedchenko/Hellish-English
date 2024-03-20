@@ -1,0 +1,49 @@
+.solving__background {
+  background-color: $titleColor;
+  width: 320px;
+  height: 545px;
+  padding-top: 25px;
+  position: relative;
+}
+.solving__title {
+  color: $secondaryTextColor;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+.solving__help-text {
+  color: $accentColor;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+.solving__benefits {
+  position: absolute;
+  top: 205px;
+  margin: 0 auto;
+  background-color: $secondaryTextColor;
+  width: 290px;
+  box-shadow: -5px 8px 26px 0 rgba(0, 0, 0, 0.04);
+  height: 490px;
+}
+.solving {
+  position: relative;
+  margin-bottom: 150px;
+}
+.solving__subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  color: $accentColor;
+  font-size: 14px;
+}
+.solving__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.08em;
+  color: $titleColor;
+}
