@@ -1,7 +1,53 @@
 .footer{
-    &__wrap{
-
+     
+    &__list{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
+
+    &__item{
+          
+    }
+
+    &__link{
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-align: center;
+        color: #111518;
+    }
+
+    &__rights{
+        height: 67px;
+        margin-top: 54px;
+        background-color: black;
+    }
+
+    &__text{
+        padding-top: 20px;
+        padding-bottom: 20px;
+       text-align: center;
+        font-family: 'Montserrat';
+font-weight: 500;
+font-size: 14px;
+line-height: 200%;
+color: #b9b9b9;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    
+
+.footer{
+
 
     &__link{
         font-family: 'Montserrat';
@@ -21,12 +67,14 @@
     &__text{
         padding-top: 20px;
         padding-bottom: 20px;
-        display: flex;
-        justify-content: left;
+       text-align: left;
         font-family: 'Montserrat';
 font-weight: 500;
 font-size: 14px;
 line-height: 200%;
 color: #b9b9b9;
     }
+}
+
+
 }

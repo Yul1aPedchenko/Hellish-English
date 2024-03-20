@@ -1,5 +1,7 @@
 .form{
-    background-image: url(/src/img/form/form-bg-desktop.webp);
+
+    background-repeat: no-repeat;
+    background-size: contain;
 
     opacity: 9;
 
@@ -67,9 +69,6 @@ color: #fff;
         width: 260px;
         height: 48px;
         background-color: #ff6b09;
-    }
-
-    &__comment{
         font-family: 'Montserrat';
 font-weight: 700;
 font-size: 14px;
