@@ -64,4 +64,13 @@ img {
   .container {
     max-width: 1344px;
   }
+}
+.activity__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activity__item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
 }/*# sourceMappingURL=main.css.map */
