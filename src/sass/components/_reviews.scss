@@ -1,4 +1,9 @@
 .reviews {
+  .arrow{
+    width: 80px;
+    height: 80px;
+  }
+
   .arrow-desktop {
     display: none;
   }
@@ -32,8 +37,8 @@
   }
 
   &__history {
+   
     width: 280px;
-    text-align: center;
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 12px;
@@ -45,7 +50,7 @@
 
   &__test {
     width: 280px;
-    text-align: center;
+   
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 12px;
@@ -53,6 +58,13 @@
     text-align: center;
     color: #3d3d3d;
   }
+
+
+  &__icon{
+    width: 90px;
+    height: 90px;
+  }
+
 
   &__link {
     text-decoration-line: underline;
@@ -64,6 +76,15 @@
     line-height: 167%;
     text-align: center;
     color: #ff6b09;
+  }
+
+  &__item{
+    margin-right: 10px;
+  }
+
+  .reviews__item:nth-child(n+3){
+     display: none;
+     
   }
 }
 

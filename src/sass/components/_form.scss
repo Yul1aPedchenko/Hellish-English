@@ -1,9 +1,8 @@
 .form{
-
+    background-image: url(../img/form/form-bg-mobile.png);
     background-repeat: no-repeat;
     background-size: contain;
-
-    opacity: 9;
+    
 
     &__span{
         color: #ff6b09;
@@ -50,14 +49,13 @@ color: #fff;
         margin-bottom: 50px;
         }
     &__label{
-        border: 1px solid black;
+
         width: 260px;
         
     }
 
     &__input{
-        color: white;
-        font-family: "Montserrat";
+        font-family: 'Montserrat';
         padding-left: 20px;
 font-weight: 600;
 font-size: 20px;
