@@ -1,4 +1,97 @@
 .form{
+    background-image: url(/src/img/form/form-bg-desktop.webp);
+
+    opacity: 9;
+
+    &__span{
+        color: #ff6b09;
+    }
+    &__title{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #fff;
+    }
+
+    &__text{
+        margin-bottom: 56px;
+        font-family: 'Montserrat';
+font-weight: 600;
+font-size: 12px;
+letter-spacing: 0.08em;
+text-align: center;
+color: #fff;
+    }
+
+    &__wrap{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+
+    .form__label:nth-child(1){
+    margin-bottom: 20px;
+    }
+
+    .form__label:nth-child(2){
+        margin-bottom: 50px;
+        }
+    &__label{
+        border: 1px solid black;
+        width: 260px;
+        
+    }
+
+    &__input{
+        color: white;
+        font-family: "Montserrat";
+        padding-left: 20px;
+font-weight: 600;
+font-size: 20px;
+letter-spacing: 0.08em;
+color: #fff;
+    }
+
+    &__button{
+        width: 260px;
+        height: 48px;
+        background-color: #ff6b09;
+    }
+
+    &__comment{
+        font-family: 'Montserrat';
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.14em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    
+
+.form{
     opacity: 9;
     &__title{
         margin-top: 100px;
@@ -78,4 +171,6 @@ text-transform: uppercase;
 text-align: center;
 color: #fff;
     }
+}
+
 }

@@ -395,37 +395,108 @@ body {
     display: none;
   }
 }
+.reviews .arrow-desktop {
+  display: none;
+}
 .reviews__title {
+  margin-top: 70px;
   font-family: "Montserrat";
   font-weight: 800;
-  font-size: 46px;
+  font-size: 20px;
   line-height: 130%;
   letter-spacing: 0.03em;
   text-align: center;
   color: #111518;
 }
-.reviews__title__list {
+.reviews__list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.reviews__title__name {
+.reviews__name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
   font-family: "Montserrat";
   font-weight: 800;
-  font-size: 30px;
+  font-size: 14px;
   letter-spacing: 0.08em;
   color: #ff6b09;
 }
+.reviews__history {
+  position: relative;
+  right: 100px;
+  margin-left: 200px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  color: #b9b9b9;
+  margin-bottom: 16px;
+}
+.reviews__test {
+  position: relative;
+  right: 100px;
+  margin-left: 200px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 167%;
+  text-align: center;
+  color: #3d3d3d;
+}
+.reviews__link {
+  text-decoration-line: underline;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 167%;
+  text-align: center;
+  color: #ff6b09;
+}
 
+@media screen and (min-width: 1200px) {
+  .arrow-mobile {
+    display: none;
+  }
+  .reviews__title {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #111518;
+  }
+  .reviews__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .reviews__name {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 0.08em;
+    color: #ff6b09;
+  }
+}
 .form {
+  background-image: url(/src/img/form/form-bg-desktop.webp);
   opacity: 9;
+}
+.form__span {
+  color: #ff6b09;
 }
 .form__title {
   margin-top: 100px;
   margin-bottom: 50px;
   font-family: "Montserrat";
   font-weight: 800;
-  font-size: 46px;
+  font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.03em;
   text-align: center;
@@ -435,13 +506,10 @@ body {
   margin-bottom: 56px;
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 30px;
+  font-size: 12px;
   letter-spacing: 0.08em;
   text-align: center;
   color: #fff;
-}
-.form__span {
-  color: #ff6b09;
 }
 .form__wrap {
   display: flex;
@@ -456,27 +524,24 @@ body {
   margin-bottom: 20px;
 }
 .form .form__label:nth-child(2) {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 .form__label {
   border: 1px solid black;
+  width: 260px;
 }
 .form__input {
   color: white;
   font-family: "Montserrat";
-  padding-top: 23px;
-  padding-bottom: 23px;
-  padding-left: 40px;
-  padding-right: 361px;
+  padding-left: 20px;
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 0.08em;
   color: #fff;
 }
 .form__button {
-  margin-left: 150px;
-  width: 354px;
-  height: 70px;
+  width: 260px;
+  height: 48px;
   background-color: #ff6b09;
 }
 .form__comment {
@@ -489,6 +554,79 @@ body {
   color: #fff;
 }
 
+@media screen and (min-width: 1200px) {
+  .form {
+    opacity: 9;
+  }
+  .form__title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+  }
+  .form__text {
+    margin-bottom: 56px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #fff;
+  }
+  .form__span {
+    color: #ff6b09;
+  }
+  .form__wrap {
+    display: flex;
+    justify-content: center;
+  }
+  .form__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .form .form__label:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  .form .form__label:nth-child(2) {
+    margin-bottom: 80px;
+  }
+  .form__label {
+    border: 1px solid black;
+  }
+  .form__input {
+    color: white;
+    font-family: "Montserrat";
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 40px;
+    padding-right: 361px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    color: #fff;
+  }
+  .form__button {
+    margin-left: 150px;
+    width: 354px;
+    height: 70px;
+    background-color: #ff6b09;
+  }
+  .form__comment {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+  }
+}
 .footer__link {
   font-family: "Montserrat";
   font-weight: 600;

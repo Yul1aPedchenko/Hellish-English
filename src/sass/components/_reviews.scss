@@ -1,37 +1,102 @@
-.reviews{
+.reviews {
+  .arrow-desktop {
+    display: none;
+  }
 
-    &__title{
-        font-family: 'Montserrat';
-font-weight: 800;
-font-size: 46px;
-line-height: 130%;
-letter-spacing: 0.03em;
-text-align: center;
-color: #111518;
+  &__title {
+    margin-top: 70px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #111518;
+  }
 
-&__list{
+  &__list {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-&__name{
+  &__name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
     font-family: 'Montserrat';
-font-weight: 800;
-font-size: 30px;
-letter-spacing: 0.08em;
-color: #ff6b09;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    color: #ff6b09;
+  }
+
+  &__history {
+    position: relative;
+    right: 100px;
+    margin-left: 200px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #b9b9b9;
+    margin-bottom: 16px;
+  }
+
+  &__test {
+    position: relative;
+    right: 100px;
+    margin-left: 200px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 167%;
+    text-align: center;
+    color: #3d3d3d;
+  }
+
+  &__link {
+    text-decoration-line: underline;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 167%;
+    text-align: center;
+    color: #ff6b09;
+  }
 }
+
+@media screen and (min-width: 1200px) {
+  .arrow-mobile {
+    display: none;
+  }
+
+  .reviews {
+    &__title {
+      font-family: 'Montserrat';
+      font-weight: 800;
+      font-size: 46px;
+      line-height: 130%;
+      letter-spacing: 0.03em;
+      text-align: center;
+      color: #111518;
     }
-    
 
+    &__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-
-
-
-
-
-
-
-
+    &__name {
+      font-family: 'Montserrat';
+      font-weight: 800;
+      font-size: 30px;
+      letter-spacing: 0.08em;
+      color: #ff6b09;
+    }
+  }
 }
