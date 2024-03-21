@@ -1,5 +1,7 @@
 .reviews {
-  .arrow{
+
+  .arrow-left{
+    fill: #ff6b09;
     width: 80px;
     height: 80px;
   }
@@ -7,6 +9,20 @@
   .arrow-desktop {
     display: none;
   }
+
+
+  .icon-facebook{
+    margin-top: 18.29px;
+    margin-left: 205px;
+    margin-bottom: -100px;
+  }
+
+  
+  &__fotoblog{
+    margin-top: 25px;
+    margin-left: 180px;
+  }
+
 
   &__title {
     margin-top: 70px;
@@ -26,8 +42,7 @@
   }
 
   &__name {
-    display: flex;
-    justify-content: center;
+    margin-left: 128px;
     margin-bottom: 20px;
     font-family: 'Montserrat';
     font-weight: 800;
@@ -37,7 +52,7 @@
   }
 
   &__history {
-   
+   margin-left: 80px;
     width: 280px;
     font-family: 'Montserrat';
     font-weight: 500;
@@ -50,7 +65,7 @@
 
   &__test {
     width: 280px;
-   
+    margin-left: 80px;
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 12px;
