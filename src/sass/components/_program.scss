@@ -70,7 +70,10 @@
     display: flex;
     align-items: center;
     height: 20px;
-    margin-bottom: 11px;
+    margin-bottom: 12px;
+  }
+  &__sublist {
+    margin-bottom: 14px;
   }
   &__line {
     width: 20px;
@@ -91,6 +94,7 @@
     line-height: 167%;
     letter-spacing: 0.08em;
     color: $textColor;
+    opacity: 0.5;
   }
 }
 .benefits {
@@ -164,6 +168,7 @@
     &__title {
       font-size: 26px;
       margin-bottom: 52px;
+      width: 688px;
     }
     &__small-line {
       height: 705px;
@@ -199,11 +204,38 @@
   .semester__wrap {
     margin-bottom: 13px;
   }
+  .semester__sublist {
+    margin-bottom: 0;
+  }
   .semester__subitem {
     width: 150px;
   }
   .benefits {
     top: 1100px;
+    width: 738px;
+  }
+  .benefits__wrap {
+    padding: 40px 98px;
+  }
+  .benefits__title {
+    font-size: 26px;
+    line-height: 130%;
+    text-align: center;
+    width: auto;
+  }
+  .benefits__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .benefits__item {
+    width: 236px;
+  }
+  .benefits__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .benefits__item:nth-child(n + 3) {
+    margin-top: 20px;
   }
 }
 
