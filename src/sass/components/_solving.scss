@@ -1,5 +1,4 @@
 .solving__background {
-  background-color: $titleColor;
   width: 320px;
   height: 545px;
   padding-top: 25px;
@@ -33,6 +32,7 @@
 .solving {
   position: relative;
   margin-bottom: 150px;
+  background-color: $titleColor;
 }
 .solving__subtitle {
   font-weight: 700;
