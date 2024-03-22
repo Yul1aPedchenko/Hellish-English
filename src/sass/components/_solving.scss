@@ -28,6 +28,7 @@
   width: 290px;
   box-shadow: -5px 8px 26px 0 rgba(0, 0, 0, 0.04);
   height: 490px;
+  padding: 20px 28px;
 }
 .solving {
   position: relative;
@@ -35,10 +36,21 @@
 }
 .solving__subtitle {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 14px;
+  line-height: 165%;
   letter-spacing: 0.08em;
   color: $accentColor;
-  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 2px;
+    background-color: $accentColor;
+    margin-right: 6px;
+  }
 }
 .solving__text {
   font-weight: 700;
@@ -46,4 +58,7 @@
   line-height: 171%;
   letter-spacing: 0.08em;
   color: $titleColor;
+}
+.solving__item{
+  margin-bottom: 15px;
 }
