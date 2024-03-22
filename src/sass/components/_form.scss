@@ -1,13 +1,25 @@
 .form{
-    background-image: url(../img/form/form-bg-mobile.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 200px;
-    opacity: 8px;
+    
+    margin-left: 100px;
+    min-width: 480px;
+    height: 507px;
+    opacity: 2;
+
+    background-image: url(../img/form/form-bg-mobile.png),
+    -webkit-image-set(url(../img/form/form-bg-mobile.webp) 1x, url(../img/form/form-bg-mobile@2x.webp)
+          2x),
+    image-set(
+      url(../img/form/form-bg-mobile.png) 1x,
+      url(../img/form/form-bg-mobile@2x.png)
+    );
+
     &__span{
         color: #ff6b09;
     }
     &__title{
+        width: 280px;
+        padding: 20px;
         margin-top: 100px;
         margin-bottom: 50px;
         font-family: 'Montserrat';
@@ -20,6 +32,7 @@
     }
 
     &__text{
+        width: 280px;
         margin-bottom: 56px;
         font-family: 'Montserrat';
 font-weight: 600;
@@ -49,12 +62,15 @@ color: #fff;
         margin-bottom: 50px;
         }
     &__label{
-
-        width: 260px;
+          margin-right: 150px;
         
     }
 
     &__input{
+        background-color: transparent;
+        margin-right: 20px;
+        width: 260px;
+        height: 48px;
         font-family: 'Montserrat';
         padding-left: 20px;
 font-weight: 600;
@@ -64,6 +80,11 @@ color: #fff;
     }
 
     &__button{
+        
+        border: 1px solid transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 260px;
         height: 48px;
         background-color: #ff6b09;
@@ -73,7 +94,7 @@ font-size: 14px;
 letter-spacing: 0.14em;
 text-transform: uppercase;
 text-align: center;
-color: #fff;
+color: white;
     }
 }
 

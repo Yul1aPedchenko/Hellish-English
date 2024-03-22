@@ -1,14 +1,24 @@
 .reviews {
 
   .arrow-left{
+    position: relative;
+    top: 75px;
+    left: 69px;
+    fill:#ff6b09;
+    width: 25px;
+    height: 80px;
+   
+  }
+
+  .arrow-right{
+    position: relative;
+    top: 75px;
+    left: 320px;
     fill: #ff6b09;
-    width: 80px;
+    width: 25px;
     height: 80px;
   }
 
-  .arrow-desktop {
-    display: none;
-  }
 
 
   .icon-facebook{
