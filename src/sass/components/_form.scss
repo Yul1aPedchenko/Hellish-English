@@ -1,0 +1,231 @@
+.form {
+  padding: 55px 0;
+  background-repeat: no-repeat;
+  background-image: url(../img/form/form-bg-mobile.png),
+    -webkit-image-set(url(../img/form/form-bg-mobile.webp) 1x, url(../img/form/form-bg-mobile@2x.webp)
+          2x),
+    image-set(
+      url(../img/form/form-bg-mobile.png) 1x,
+      url(../img/form/form-bg-mobile@2x.png)
+    );
+  background-color: $titleColor;
+  background-size: cover;
+  &__span {
+    color: #ff6b09;
+  }
+  &__title {
+    width: 280px;
+    margin-bottom: 50px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__text {
+    width: 280px;
+    margin-bottom: 56px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #fff;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  &__label:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  &__label:nth-child(2) {
+    margin-bottom: 50px;
+  }
+  &__input {
+    background-color: transparent;
+    padding: 15.5px 0;
+    padding-left: 20px;
+    font-weight: 600;
+    min-width: 290px;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    color: #fff;
+  }
+
+  &__button {
+    border: 1px solid transparent;
+    background-color: #ff6b09;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    padding: 14px 46px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    background-image: url(../img/form/form-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 9;
+    &__title {
+      margin-top: 100px;
+      margin-bottom: 50px;
+
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 130%;
+      letter-spacing: 0.03em;
+      text-align: center;
+      color: #fff;
+    }
+
+    &__text {
+      margin-bottom: 56px;
+
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 0.08em;
+      text-align: center;
+      color: #fff;
+    }
+
+    &__span {
+      color: #ff6b09;
+    }
+
+    &__wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .form__label:nth-child(1) {
+      margin-bottom: 20px;
+    }
+
+    .form__label:nth-child(2) {
+      margin-bottom: 80px;
+    }
+    &__label {
+      border: 1px solid black;
+    }
+
+    &__input {
+      color: white;
+
+      padding-top: 23px;
+      padding-bottom: 23px;
+      padding-left: 40px;
+      padding-right: 361px;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0.08em;
+      color: #fff;
+    }
+
+    &__button {
+      margin-left: 150px;
+      width: 260px;
+      height: 48px;
+      background-color: #ff6b09;
+    }
+
+    &__comment {
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    opacity: 9;
+    &__title {
+      margin-top: 100px;
+      margin-bottom: 50px;
+
+      font-weight: 800;
+      font-size: 46px;
+      line-height: 130%;
+      letter-spacing: 0.03em;
+      text-align: center;
+      color: #fff;
+    }
+
+    &__text {
+      margin-bottom: 56px;
+
+      font-weight: 600;
+      font-size: 30px;
+      letter-spacing: 0.08em;
+      text-align: center;
+      color: #fff;
+    }
+
+    &__span {
+      color: #ff6b09;
+    }
+
+    &__wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .form__label:nth-child(1) {
+      margin-bottom: 20px;
+    }
+
+    .form__label:nth-child(2) {
+      margin-bottom: 80px;
+    }
+    &__label {
+      border: 1px solid black;
+    }
+
+    &__input {
+      color: white;
+      padding-top: 23px;
+      padding-bottom: 23px;
+      padding-left: 40px;
+      padding-right: 361px;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0.08em;
+      color: #fff;
+    }
+    &__button {
+      margin-left: 150px;
+      width: 354px;
+      height: 70px;
+      background-color: #ff6b09;
+    }
+    &__comment {
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
