@@ -1,70 +1,75 @@
 <header class="header">
-  <div class="container header__div">
-    <div class="header__menu-wrap">
-      <a href="../index.html" class="header__mobile-logo">
-        <svg>
-          <use href="../img/symbol-defs.svg#icon-logo"></use>
-        </svg>
-      </a>
-      <button
-        class="menu-toggle js-open-menu"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <svg class="header__burger-icon" width="24" height="16">
-          <use href="../img/symbol-defs.svg#icon-menu"></use>
-        </svg>
-      </button>
-    </div>
-    <a href="../index.html" class="header__logo">
-      <svg>
-        <use href="../img/symbol-defs.svg#icon-logo"></use>
+  <div class="header__menu-wrap">
+    <a href="#" class="header__mobile-logo">
+      <svg class="header__mobile-logo">
+        <use href="./img/symbol-defs.svg#icon-logo"></use>
       </svg>
     </a>
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li class="header__item">
-          <a href="#" class="header__link">Studying program</a>
-        </li>
-        <li class="header__item">
-          <a href="#" class="header__link">about</a>
-        </li>
-        <li class="header__item">
-          <a href="#" class="header__link">training options</a>
-        </li>
-        <li class="header__item">
-          <a href="#" class="header__link">contacts</a>
-        </li>
-      </ul>
-    </nav>
-    <button class="header__button">consultation by phone</button>
+    <button class="header__menu-btn">consultation by phone</button>
+    <button
+      class="menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+    <svg width="23" height="14" viewBox="0 0 23 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 1H22" stroke="black" stroke-width="2" stroke-linecap="round" />
+      <path d="M1 7H22" stroke="black" stroke-width="2" stroke-linecap="round" />
+      <path d="M1 13H22" stroke="black" stroke-width="2" stroke-linecap="round" />
+    </svg>
+    </button>
+  </div>
+  <div class="container header__div">
+    <div class="header__wrap">
+      <a href="#" class="header__logo">
+        <svg>
+          <use href="./img/symbol-defs.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">Studying program</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">about</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">training options</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__button">consultation by phone</button>
+    </div>
   </div>
 </header>
 
 <div class="menu-container js-menu-container" id="mobile-menu">
-  <a href="../index.html" class="header__mobile-logo">
-    <svg>
-      <use href="../img/symbol-defs.svg#icon-logo"></use>
+  <a href="../index.html" class="header__menu-logo">
+    <svg class="header__mobile-logo-open">
+      <use href="./img/symbol-defs.svg#icon-logo"></use>
     </svg>
   </a>
   <button class="menu-toggle js-close-menu">
-    <svg>
-      <use href="../img/symbol-defs.svg#icon-close"></use>
+    <svg class="header__mobile-close">
+      <use href="./img/symbol-defs.svg#icon-close"></use>
     </svg>
   </button>
 
   <ul class="header__mobile-list">
     <li class="header__mobile-item">
-      <a href="#">Studying program</a>
+      <a href="#" class="header__mobile-item-color">Studying program</a>
     </li>
     <li class="header__mobile-item">
-      <a href="#">About</a>
+      <a href="#" class="header__about">About</a>
     </li>
     <li class="header__mobile-item">
-      <a href="#">Training options</a>
+      <a href="#" class="header__mobile-item-color">Training options</a>
     </li>
     <li class="header__mobile-item">
-      <a href="#">Contacts</a>
+      <a href="#" class="header__mobile-item-color">Contacts</a>
     </li>
   </ul>
   <button class="header__mobile-button">Consultation by phone</button>
