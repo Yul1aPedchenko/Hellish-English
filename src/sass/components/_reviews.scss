@@ -1,0 +1,105 @@
+.reviews {
+  padding-bottom: 130px;
+  padding-top: 130px;
+  &__fotoblog {
+    margin-top: 25px;
+  }
+
+  &__title {
+    font-weight: 800;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #111518;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+  &__wrap {
+    text-align: center;
+  }
+  &__name {
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    color: #ff6b09;
+  }
+
+  &__history {
+    width: 280px;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #b9b9b9;
+    margin-bottom: 16px;
+  }
+
+  &__test {
+    width: 280px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 167%;
+    text-align: center;
+    color: #3d3d3d;
+  }
+
+  &__icon {
+    width: 90px;
+    height: 90px;
+  }
+
+  &__link {
+    text-decoration-line: underline;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 167%;
+    text-align: center;
+    color: #ff6b09;
+  }
+
+  &__item {
+    margin-right: 10px;
+  }
+}
+.arrow-left,
+.arrow-right {
+  fill: #ff6b09;
+  width: 25px;
+  height: 25px;
+}
+.reviews__item:nth-child(n + 3) {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .reviews {
+    &__title {
+      font-weight: 800;
+      font-size: 46px;
+      line-height: 130%;
+      letter-spacing: 0.03em;
+      text-align: center;
+      color: #111518;
+    }
+
+    &__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__name {
+      font-weight: 800;
+      font-size: 30px;
+      letter-spacing: 0.08em;
+      color: #ff6b09;
+    }
+  }
+}
