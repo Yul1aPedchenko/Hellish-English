@@ -113,6 +113,107 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  
+
+  .icon-facebook{
+    position: relative;
+    right: 95px;
+    top: 52px;
+  }
+
+  .reviews{
+
+
+
+  &__fotoblog{
+    position: relative;
+    right: 125px;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+  }
+
+  
+  &__title {
+    margin-top: 70px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #111518;
+  }
+  
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__name {
+    margin-left: 128px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    color: #ff6b09;
+  }
+
+
+  
+  &__history {
+    
+     width: 412px;
+     font-family: 'Montserrat';
+     font-weight: 500;
+     font-size: 12px;
+     letter-spacing: 0.08em;
+     text-align: center;
+     color: #b9b9b9;
+     margin-bottom: 16px;
+   }
+ 
+   &__test {
+     width: 412px;
+     
+     font-family: 'Montserrat';
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 167%;
+     text-align: center;
+     color: #3d3d3d;
+   }
+
+   &__wrap{
+    margin-top: -282px;
+    margin-left: 160px;
+   }
+
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1200px) {
   .arrow-mobile {
     display: none;
