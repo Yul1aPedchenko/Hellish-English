@@ -1,6 +1,6 @@
 .reviews {
 
-  .arrow-left{
+  &__arrowleft{
     position: relative;
     top: 75px;
     left: 69px;
@@ -10,7 +10,7 @@
    
   }
 
-  .arrow-right{
+  &__arrowright{
     position: relative;
     top: 75px;
     left: 320px;
@@ -107,7 +107,7 @@
     margin-right: 10px;
   }
 
-  .reviews__item:nth-child(n+3){
+  .reviews__item:nth-child(n+4){
      display: none;
      
   }
@@ -115,6 +115,9 @@
 
 @media screen and (min-width: 768px) {
   
+
+
+
 
   .icon-facebook{
     position: relative;
@@ -124,7 +127,23 @@
 
   .reviews{
 
-
+    &__left{
+      position: relative;
+      bottom: 175px;
+      fill:#ff6b09;
+      width: 25px;
+      height: 80px;
+     
+    }
+  
+    &__right{
+      position: relative;
+      bottom: 175px;
+      left: 650px;
+      fill: #ff6b09;
+      width: 25px;
+      height: 80px;
+    }
 
   &__fotoblog{
     position: relative;
@@ -193,6 +212,13 @@
     margin-left: 160px;
    }
 
+
+   .reviews__item:nth-child(n+2){
+    display: block;
+    
+    
+ }
+   
 
   }
 
