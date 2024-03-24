@@ -1,12 +1,44 @@
 .reviews {
-  padding-bottom: 130px;
-  padding-top: 130px;
-  &__fotoblog {
-    margin-top: 25px;
+
+  &__arrowleft{
+    position: relative;
+    top: 75px;
+    left: 69px;
+    fill:#ff6b09;
+    width: 25px;
+    height: 80px;
+   
   }
 
+  &__arrowright{
+    position: relative;
+    top: 75px;
+    left: 320px;
+    fill: #ff6b09;
+    width: 25px;
+    height: 80px;
+  }
+
+
+
+  .icon-facebook{
+    margin-top: 18.29px;
+    margin-left: 205px;
+    margin-bottom: -100px;
+  }
+
+  
+  &__fotoblog{
+    margin-top: 25px;
+    margin-left: 180px;
+  }
+
+
   &__title {
+    margin-top: 70px;
+    font-family: 'Montserrat';
     font-weight: 800;
+    font-size: 20px;
     line-height: 130%;
     letter-spacing: 0.03em;
     text-align: center;
@@ -17,13 +49,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    order: 1;
   }
-  &__wrap {
-    text-align: center;
-  }
+
   &__name {
+    margin-left: 128px;
     margin-bottom: 20px;
+    font-family: 'Montserrat';
     font-weight: 800;
     font-size: 14px;
     letter-spacing: 0.08em;
@@ -31,7 +62,9 @@
   }
 
   &__history {
+   margin-left: 80px;
     width: 280px;
+    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 0.08em;
@@ -42,6 +75,8 @@
 
   &__test {
     width: 280px;
+    margin-left: 80px;
+    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 12px;
     line-height: 167%;
@@ -49,15 +84,18 @@
     color: #3d3d3d;
   }
 
-  &__icon {
+
+  &__icon{
     width: 90px;
     height: 90px;
   }
+
 
   &__link {
     text-decoration-line: underline;
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 12px;
     line-height: 167%;
@@ -65,22 +103,151 @@
     color: #ff6b09;
   }
 
-  &__item {
+  &__item{
     margin-right: 10px;
   }
+
+  .reviews__item:nth-child(n+4){
+     display: none;
+     
+  }
 }
-.arrow-left,
-.arrow-right {
-  fill: #ff6b09;
-  width: 25px;
-  height: 25px;
+
+@media screen and (min-width: 768px) {
+  
+
+
+
+
+  .icon-facebook{
+    position: relative;
+    right: 95px;
+    top: 52px;
+  }
+
+  .reviews{
+
+    &__left{
+      position: relative;
+      bottom: 175px;
+      fill:#ff6b09;
+      width: 25px;
+      height: 80px;
+     
+    }
+  
+    &__right{
+      position: relative;
+      bottom: 175px;
+      left: 650px;
+      fill: #ff6b09;
+      width: 25px;
+      height: 80px;
+    }
+
+  &__fotoblog{
+    position: relative;
+    right: 125px;
+    top: 50px;
+    width: 150px;
+    height: 150px;
+  }
+
+  
+  &__title {
+    margin-top: 70px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #111518;
+  }
+  
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__name {
+    margin-left: 128px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    color: #ff6b09;
+  }
+
+
+  
+  &__history {
+    
+     width: 412px;
+     font-family: 'Montserrat';
+     font-weight: 500;
+     font-size: 12px;
+     letter-spacing: 0.08em;
+     text-align: center;
+     color: #b9b9b9;
+     margin-bottom: 16px;
+   }
+ 
+   &__test {
+     width: 412px;
+     
+     font-family: 'Montserrat';
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 167%;
+     text-align: center;
+     color: #3d3d3d;
+   }
+
+   &__wrap{
+    margin-top: -282px;
+    margin-left: 160px;
+   }
+
+
+   .reviews__item:nth-child(n+2){
+    display: block;
+    
+    
+ }
+   
+
+  }
+
+
 }
-.reviews__item:nth-child(n + 3) {
-  display: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1200px) {
+  .arrow-mobile {
+    display: none;
+  }
+
   .reviews {
     &__title {
+      font-family: 'Montserrat';
       font-weight: 800;
       font-size: 46px;
       line-height: 130%;
@@ -96,6 +263,7 @@
     }
 
     &__name {
+      font-family: 'Montserrat';
       font-weight: 800;
       font-size: 30px;
       letter-spacing: 0.08em;
