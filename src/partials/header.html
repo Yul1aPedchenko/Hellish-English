@@ -1,7 +1,7 @@
 <header class="header">
   <div class="header__menu-wrap">
     <a href="#" class="header__mobile-logo">
-      <svg class="header__mobile-logo">
+      <svg class="header__mobile-logo-icon">
         <use href="./img/symbol-defs.svg#icon-logo"></use>
       </svg>
     </a>
@@ -11,10 +11,8 @@
       aria-expanded="false"
       aria-controls="mobile-menu"
     >
-    <svg width="23" height="14" viewBox="0 0 23 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1 1H22" stroke="black" stroke-width="2" stroke-linecap="round" />
-      <path d="M1 7H22" stroke="black" stroke-width="2" stroke-linecap="round" />
-      <path d="M1 13H22" stroke="black" stroke-width="2" stroke-linecap="round" />
+    <svg width="23" height="14">
+      <use href="./img/symbol-defs.svg#icon-menu"></use>
     </svg>
     </button>
   </div>
@@ -47,7 +45,7 @@
 </header>
 
 <div class="menu-container js-menu-container" id="mobile-menu">
-  <a href="../index.html" class="header__menu-logo">
+  <a href="./index.html" class="header__menu-logo">
     <svg class="header__mobile-logo-open">
       <use href="./img/symbol-defs.svg#icon-logo"></use>
     </svg>
@@ -60,16 +58,16 @@
 
   <ul class="header__mobile-list">
     <li class="header__mobile-item">
-      <a href="#" class="header__mobile-item-color">Studying program</a>
+      <a href="#" class="header__mobile-link">Studying program</a>
     </li>
     <li class="header__mobile-item">
-      <a href="#" class="header__about">About</a>
+      <a href="#" class="header__mobile-link">About</a>
     </li>
     <li class="header__mobile-item">
-      <a href="#" class="header__mobile-item-color">Training options</a>
+      <a href="#" class="header__mobile-link">Training options</a>
     </li>
     <li class="header__mobile-item">
-      <a href="#" class="header__mobile-item-color">Contacts</a>
+      <a href="#" class="header__mobile-link">Contacts</a>
     </li>
   </ul>
   <button class="header__mobile-button">Consultation by phone</button>
