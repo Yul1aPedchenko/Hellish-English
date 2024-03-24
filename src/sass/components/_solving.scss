@@ -1,7 +1,4 @@
 .solving__background {
-  background-color: $titleColor;
-  width: 320px;
-  height: 545px;
   padding-top: 25px;
   position: relative;
 }
@@ -11,6 +8,10 @@
   font-size: 24px;
   line-height: 130%;
   letter-spacing: 0.03em;
+  width: 280px;
+}
+.solving__span {
+  font-size: 20px;
 }
 .solving__help-text {
   color: $accentColor;
@@ -27,18 +28,31 @@
   background-color: $secondaryTextColor;
   width: 290px;
   box-shadow: -5px 8px 26px 0 rgba(0, 0, 0, 0.04);
-  height: 490px;
+  padding: 20px 28px;
 }
 .solving {
   position: relative;
   margin-bottom: 150px;
+  background-color: $titleColor;
+  padding-bottom: 365px;
 }
 .solving__subtitle {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 14px;
+  line-height: 165%;
   letter-spacing: 0.08em;
   color: $accentColor;
-  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: $accentColor;
+    margin-right: 9px;
+  }
 }
 .solving__text {
   font-weight: 700;
@@ -46,4 +60,7 @@
   line-height: 171%;
   letter-spacing: 0.08em;
   color: $titleColor;
+}
+.solving__item:not(:last-child) {
+  margin-bottom: 15px;
 }

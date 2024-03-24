@@ -2,21 +2,42 @@
   <div class="container">
     <div class="footer__wrap">
       <a href="../index.html" class="footer__logo">
-        <svg><use href="../img/symbol-defs.svg#icon-logo"></use></svg>
+        <svg><use href="./img/symbol-defs.svg#icon-logo"></use></svg>
       </a>
       <div class="footer__contacts">
         <ul class="footer__list">
           <li class="footer__item">
-            <svg><use href="../img/symbol-defs.svg#icon-phone"></use></svg>
+            <a class="footer__link" href="tel:+380991234567"
+              ><svg
+                width="20"
+                height="20">
+              <use href="./img/symbol-defs.svg#icon-phone"></use></svg>
+              </svg>
+              +38 (099) 123 45 67</a
+            >
           </li>
           <li class="footer__item">
-            <a href="tel:+380991234567">+38 (099) 123 45 67</a>
-          </li>
-          <li class="footer__item">
-            <div class="footer__line"></div>
-          </li>
-          <li class="footer__item">
-            <svg><use href="../img/symbol-defs.svg#icon-instagram"></use></svg>
+            <picture>
+              <source
+                srcset="
+                  ./img/footer/instagram.png    1x,
+                  ./img/footer/instagram@2x.png 1x
+                "
+                type="image/png"
+              />
+              <source
+                srcset="
+                  ./img/footer/instagram.webp    1x,
+                  ./img/footer/instagram@2x.webp 1x
+                "
+                type="image/webp"
+              />
+              <img
+                src="./img/footer/instagram.png"
+                alt=""
+                class="footer__instagram"
+              />
+            </picture>
           </li>
         </ul>
       </div>
