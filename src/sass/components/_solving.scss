@@ -28,7 +28,6 @@
   background-color: $secondaryTextColor;
   width: 290px;
   box-shadow: -5px 8px 26px 0 rgba(0, 0, 0, 0.04);
-  height: 490px;
   padding: 20px 28px;
 }
 .solving {
@@ -62,6 +61,6 @@
   letter-spacing: 0.08em;
   color: $titleColor;
 }
-.solving__item {
+.solving__item:not(:last-child) {
   margin-bottom: 15px;
 }
