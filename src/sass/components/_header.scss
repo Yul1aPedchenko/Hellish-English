@@ -105,6 +105,20 @@
   height: 30px;
 }
 @media screen and (min-width: 767px) {
+  .header__mobile-list {
+    margin: 0 auto;
+  }
+  .header__mobile-link{
+    font-size: 26px;
+  }
+  .header__mobile-close {
+    width: 15px;
+    height: 15px;
+  }
+  .header__mobile-logo-open {
+    width: 128px;
+    height: 45px;
+  }
   .header__mobile-logo{
     margin-right: 253px;
   }
@@ -131,10 +145,8 @@
     text-align: center;
     color: $accentColor;
     border: 2px solid $accentColor;
-    width: 275px;
-    height: 48px;
+    padding: 15px 19px;
     background-color: $secondaryTextColor;
-    margin-right: 85px;
   }
 }
 
