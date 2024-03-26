@@ -228,7 +228,7 @@ body {
     background-image: url(../img/hero/people-bg-tablet.png), -webkit-image-set(url(../img/hero/people-bg-tablet.webp) 1x, url(../img/hero/people-bg-tablet@2x.webp) 2x), -webkit-image-set(url(../img/hero/people-bg-tablet.png) 1x, url(../img/hero/people-bg-tablet@2x.png) 2x), url(../img/hero/wave-bg-mobile.png), -webkit-image-set(url(../img/hero/wave-bg-tablet.webp) 1x, url(../img/hero/wave-bg-tablet@2x.webp) 2x), -webkit-image-set(url(../img/hero/wave-bg-tablet.png) 1x, url(../img/hero/wave-bg-tablet@2x.png) 2x);
     background-image: url(../img/hero/people-bg-tablet.png), -webkit-image-set(url(../img/hero/people-bg-tablet.webp) 1x, url(../img/hero/people-bg-tablet@2x.webp) 2x), image-set(url(../img/hero/people-bg-tablet.png) 1x, url(../img/hero/people-bg-tablet@2x.png) 2x), url(../img/hero/wave-bg-mobile.png), -webkit-image-set(url(../img/hero/wave-bg-tablet.webp) 1x, url(../img/hero/wave-bg-tablet@2x.webp) 2x), image-set(url(../img/hero/wave-bg-tablet.png) 1x, url(../img/hero/wave-bg-tablet@2x.png) 2x);
     background-repeat: no-repeat;
-    background-position: center right, center right, center right, top left;
+    background-position: top right, top right, top right, top left;
     background-size: auto, auto, auto, cover;
     padding-bottom: 232px;
   }
