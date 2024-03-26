@@ -64,3 +64,30 @@
 .solving__item:not(:last-child) {
   margin-bottom: 15px;
 }
+@media screen and (min-width: 768px) {
+  .solving__title {
+    width: 450px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+  }
+  .solving__background {
+    padding-top: 55px;
+    position: relative;
+  }
+  .solving__benefits{
+    width: 688px;
+
+  }
+  .solving__list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 28px 90px;
+    justify-content: space-between;
+  }
+  .solving__item{
+    width: 220px;
+    margin-bottom: 0px;
+  }
+}
