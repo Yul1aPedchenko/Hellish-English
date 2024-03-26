@@ -55,7 +55,6 @@ img {
   margin: 0 auto;
 }
 
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -71,6 +70,7 @@ body {
   font-size: 20px;
   background-color: skyblue;
 }
+
 .advantages {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -78,6 +78,7 @@ body {
 .advantages__item {
   display: flex;
   align-items: center;
+  width: 214px;
 }
 .advantages__item:not(:last-child) {
   margin-bottom: 30px;
@@ -134,6 +135,7 @@ body {
   background-repeat: no-repeat;
   background-position: 1460px, right;
 }
+
 @media screen and (min-width: 768px) {
   .program {
     background-image: url(../img/program/program-bg-tablet.png), -webkit-image-set(url(../img/program/program-bg-tablet.webp) 1x, url(../img/program/program-bg-tablet@2x.webp) 2x), -webkit-image-set(url(../img/program/program-bg-tablet.png) 1x, url(../img/program/program-bg-tablet@2x.png) 2x);
@@ -145,5 +147,6 @@ body {
   .program {
     background-image: url(../img/program/program-bg-desktop.png), -webkit-image-set(url(../img/program/program-bg-desktop.webp) 1x, url(../img/program/program-bg-desktop@2x.webp) 2x), -webkit-image-set(url(../img/program/program-bg-desktop.png) 1x, url(../img/program/program-bg-desktop@2x.png) 2x);
     background-image: url(../img/program/program-bg-desktop.png), -webkit-image-set(url(../img/program/program-bg-desktop.webp) 1x, url(../img/program/program-bg-desktop@2x.webp) 2x), image-set(url(../img/program/program-bg-desktop.png) 1x, url(../img/program/program-bg-desktop@2x.png) 2x);
-   background-position: bottom left;}
+     background-position: bottom left;
   }
+}/*# sourceMappingURL=main.css.map */
