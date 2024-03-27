@@ -1,0 +1,53 @@
+.teacher__svg{
+    fill: $accentColor;
+    width: 18px;
+    height: 14px;
+    margin-right: 9px;
+}
+.teacher__title{
+    color: $titleColor;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.teacher__name{
+    color: $titleColor;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.teacher__text{
+    color: $titleColor;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.teacher__text-two{
+    color: $textColor;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.teacher__small-line{
+    width: 20px;
+    height: 2px;
+    background-color: $accentColor;
+    margin-bottom: 20px;
+}
+.teacher__line{
+    width: 280px;
+    height: 1px;
+    background-color: $textColor;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.teacher__button{
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: $accentColor;
+    font-size: 12px;
+    font-weight: 500;
+}
+.teacher__item{
+    display: flex;
+}
