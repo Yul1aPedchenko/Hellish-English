@@ -15,7 +15,7 @@
     );
   background-repeat: no-repeat;
   background-position: center bottom, center bottom, center bottom, top left;
-  background-size: auto, auto, auto, cover;
+  background-size: auto, auto, auto, cover, cover, cover;
   padding-bottom: 232px;
 }
 .hero__wrap {
@@ -88,8 +88,8 @@
         url(../img/hero/wave-bg-tablet@2x.png) 2x
       );
     background-repeat: no-repeat;
-    background-position: center right, center right, center right, top left;
-    background-size: auto, auto, auto, cover;
+    background-position: top right, top right, top right, top left;
+    background-size: auto, auto, auto, cover, cover, cover;
     padding-bottom: 232px;
   }
   .hero__wrap {
