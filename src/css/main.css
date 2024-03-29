@@ -134,6 +134,11 @@ body {
   border: none;
 }
 
+.menu-container.is-open {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
 .menu-container {
   position: fixed;
   top: 0;
@@ -156,11 +161,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.menu-container.is-open {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
 }
 
 .menu-container .menu-toggle {
@@ -1079,9 +1079,78 @@ body {
     line-height: 120%;
   }
 }
+.teacher__svg {
+  fill: #ff6b09;
+  width: 18px;
+  height: 14px;
+  margin-right: 9px;
+}
+
+.teacher__title {
+  color: #111518;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.teacher__name {
+  color: #111518;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.teacher__text {
+  color: #111518;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.teacher__text-two {
+  color: #b9b9b9;
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.teacher__small-line {
+  width: 20px;
+  height: 2px;
+  background-color: #ff6b09;
+  margin-bottom: 20px;
+}
+
+.teacher__line {
+  width: 280px;
+  height: 1px;
+  background-color: #b9b9b9;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.teacher__button {
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #ff6b09;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.teacher__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.guarantee {
+  padding-top: 70px;
+}
+
 .guarantee__list {
   background-color: #F1F1F1;
-  padding: 45px 0;
+  padding: 45px 15px;
 }
 
 .guarantee__title {
@@ -1097,7 +1166,6 @@ body {
   fill: #ff6b09;
   width: 15px;
   height: 20px;
-  margin-bottom: 6px;
 }
 
 .guarantee__span {
@@ -1105,9 +1173,6 @@ body {
 }
 
 .guarantee__item {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1121,10 +1186,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-right: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 20px;
 }
 
 .guarantee__text {
@@ -1148,6 +1213,9 @@ body {
   }
 }
 @media screen and (min-width: 1344px) {
+  .guarantee {
+    padding-top: 129px;
+  }
   .guarantee__list {
     padding: 50px 112px;
     padding-bottom: 45px;

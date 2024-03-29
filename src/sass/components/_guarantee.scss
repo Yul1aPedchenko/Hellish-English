@@ -1,6 +1,9 @@
+.guarantee {
+  padding-top: 70px;
+}
 .guarantee__list {
   background-color: $secondaryBgColor;
-  padding: 45px 0;
+  padding: 45px 15px;
 }
 .guarantee__title {
   text-align: center;
@@ -14,20 +17,18 @@
   fill: $accentColor;
   width: 15px;
   height: 20px;
-  margin-bottom: 6px;
 }
 .guarantee__span {
   color: $accentColor;
 }
 .guarantee__item {
-  align-items: center;
   display: flex;
 }
 .guarantee__wrap {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-right: 20px;
+  align-items: center;
 }
 .guarantee__text {
   font-weight: 500;
@@ -49,6 +50,9 @@
   }
 }
 @media screen and (min-width: 1344px) {
+  .guarantee {
+    padding-top: 129px;
+  }
   .guarantee__list {
     padding: 50px 112px;
     padding-bottom: 45px;
