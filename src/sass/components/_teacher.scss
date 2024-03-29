@@ -2,7 +2,7 @@
     fill: $accentColor;
     width: 18px;
     height: 14px;
-    margin-right: 9px;
+    margin-right: 9px                                               ;
 }
 .teacher__title{
     color: $titleColor;
@@ -50,4 +50,18 @@
 }
 .teacher__item{
     display: flex;
+}
+@media screen and (min-width: 768px) {
+    .teacher__title{
+        font-size: 26px;
+    }
+    .teacher__line{
+        width: 403px;
+    }
+    .teacher__text{
+        font-size: 12px;
+    }
+    .teacher__text-two{
+        font-size: 10px;
+    }
 }
