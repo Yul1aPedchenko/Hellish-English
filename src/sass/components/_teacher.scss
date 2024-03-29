@@ -1,10 +1,6 @@
 .teacher {
   margin-bottom: 129px;
 }
-.teacher__wraper {
-  display: flex;
-}
-
 .teacher__svg {
   fill: $accentColor;
   width: 18px;
@@ -83,6 +79,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .teacher__wraper {
+  display: flex;
+}
   .teacher__title {
     font-size: 26px;
   }
@@ -97,6 +96,7 @@
   }
   .teacher__text {
     font-size: 12px;
+    width: 375px;
   }
   .teacher__text-two {
     font-size: 10px;
