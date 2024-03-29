@@ -569,7 +569,7 @@ body {
     position: relative;
   }
   .solving__benefits {
-    width: 688px;
+    width: 738px;
   }
   .solving__list {
     display: -webkit-box;
@@ -585,6 +585,71 @@ body {
   .solving__item {
     width: 220px;
     margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1344px) {
+  .solving {
+    background-image: url(../img/solving/campfire-desktop.png), -webkit-image-set(url(../img/solving/campfire-desktop.webp) 1x, url(../img/solving/campfire-desktop@2x.webp) 2x), -webkit-image-set(url(../img/solving/campfire-desktop.png) 1x, url(../img/solving/campfire-desktop@2x.png) 2x);
+    background-image: url(../img/solving/campfire-desktop.png), -webkit-image-set(url(../img/solving/campfire-desktop.webp) 1x, url(../img/solving/campfire-desktop@2x.webp) 2x), image-set(url(../img/solving/campfire-desktop.png) 1x, url(../img/solving/campfire-desktop@2x.png) 2x);
+    padding-bottom: 280px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  .solving__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 165%;
+    letter-spacing: 0.08em;
+  }
+  .solving__title {
+    width: 807px;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+  }
+  .solving__help-text {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+  }
+  .solving__background {
+    padding-top: 100px;
+    position: relative;
+  }
+  .solving__benefits {
+    width: 1314px;
+  }
+  .solving__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 28px 90px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .solving__item {
+    width: 336px;
+    margin-bottom: 0px;
+  }
+  .solving__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.08em;
+  }
+  .solving__benefits {
+    top: 348px;
+  }
+  .solving__span {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
   }
 }
 .activity {
@@ -1079,6 +1144,12 @@ body {
     line-height: 120%;
   }
 }
+.teacher__wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .teacher__svg {
   fill: #ff6b09;
   width: 18px;
@@ -1091,6 +1162,10 @@ body {
   padding-bottom: 30px;
   font-size: 20px;
   font-weight: 800;
+}
+
+.teacher__img {
+  width: 243px;
 }
 
 .teacher__name {
@@ -1144,6 +1219,27 @@ body {
   display: flex;
 }
 
+@media screen and (min-width: 768px) {
+  .teacher__title {
+    font-size: 26px;
+  }
+  .teacher__line {
+    width: 403px;
+  }
+  .teacher__text {
+    font-size: 12px;
+  }
+  .teacher__text-two {
+    font-size: 10px;
+  }
+  .teacher__wrap {
+    margin-right: 42px;
+  }
+  .teacher__subwrap {
+    width: 403px;
+    margin-top: 64px;
+  }
+}
 .guarantee {
   padding-top: 70px;
 }

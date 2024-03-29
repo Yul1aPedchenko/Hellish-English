@@ -77,7 +77,7 @@
     position: relative;
   }
   .solving__benefits {
-    width: 688px;
+    width: 738px;
   }
   .solving__list {
     display: flex;
@@ -91,6 +91,18 @@
   }
 }
 @media screen and (min-width: 1344px) {
+  .solving {
+    background-image: url(../img/solving/campfire-desktop.png),
+    -webkit-image-set(url(../img/solving/campfire-desktop.webp) 1x, url(../img/solving/campfire-desktop@2x.webp)
+          2x),
+    image-set(
+      url(../img/solving/campfire-desktop.png) 1x,
+      url(../img/solving/campfire-desktop@2x.png) 2x
+    );
+    padding-bottom: 280px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
   .solving__subtitle {
     font-weight: 700;
     font-size: 20px;
@@ -111,7 +123,7 @@
     letter-spacing: 0.03em;
   }
   .solving__background {
-    padding-top: 55px;
+    padding-top: 100px;
     position: relative;
   }
   .solving__benefits {
