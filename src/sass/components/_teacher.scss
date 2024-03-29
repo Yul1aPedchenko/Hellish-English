@@ -94,3 +94,40 @@
         margin-top: 64px;
     }
 }
+@media screen and (min-width: 1344px) {
+    .teacher__img {
+        width: 530px;
+    }
+    .teacher__title {
+        padding-bottom: 50px;
+        font-size: 46px;
+    }
+    .teacher__name{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .teacher__svg {
+        width: 25px;
+        height: 20px;
+        margin-right: 34px;
+    }
+    .teacher__text {
+        font-size: 16px;
+        padding-bottom: 43px;
+    }
+    .teacher__small-line {
+        width: 20px;
+        height: 2px;
+        margin-bottom: 43px;
+    }
+    .teacher__text-two {
+        font-size: 18px;
+        padding-bottom: 28px;
+    }
+    .teacher__line {
+        width: 640px;
+    }
+    .teacher__button{
+        font-size: 18px;
+    }
+}
