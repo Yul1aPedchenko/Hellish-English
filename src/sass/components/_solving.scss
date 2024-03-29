@@ -64,7 +64,7 @@
 .solving__item:not(:last-child) {
   margin-bottom: 15px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 738px) {
   .solving__title {
     width: 450px;
     font-weight: 800;
@@ -76,26 +76,37 @@
     padding-top: 55px;
     position: relative;
   }
-  .solving__benefits{
+  .solving__benefits {
     width: 688px;
-
   }
-  .solving__list{
+  .solving__list {
     display: flex;
     flex-wrap: wrap;
     padding: 28px 90px;
     justify-content: space-between;
   }
-  .solving__item{
+  .solving__item {
     width: 220px;
     margin-bottom: 0px;
   }
 }
-@media screen and (min-width: 1344px){
+@media screen and (min-width: 1344px) {
+  .solving__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 165%;
+    letter-spacing: 0.08em;
+  }
   .solving__title {
-    width: 450px;
+    width: 807px;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+  }
+  .solving__help-text {
+    font-weight: 800;
+    font-size: 46px;
     line-height: 130%;
     letter-spacing: 0.03em;
   }
@@ -103,19 +114,32 @@
     padding-top: 55px;
     position: relative;
   }
-  .solving__benefits{
+  .solving__benefits {
     width: 1314px;
-
   }
-  .solving__list{
+  .solving__list {
     display: flex;
     flex-wrap: wrap;
     padding: 28px 90px;
     justify-content: space-between;
   }
-  .solving__item{
+  .solving__item {
     width: 336px;
     margin-bottom: 0px;
   }
+  .solving__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.08em;
+  }
+  .solving__benefits {
+    top: 348px;
+  }
+  .solving__span {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+  }
 }
-  
