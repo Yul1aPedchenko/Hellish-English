@@ -498,7 +498,7 @@ body {
   margin-bottom: 15px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 738px) {
   .solving__title {
     width: 450px;
     font-weight: 800;
@@ -525,10 +525,22 @@ body {
   }
 }
 @media screen and (min-width: 1344px) {
+  .solving__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 165%;
+    letter-spacing: 0.08em;
+  }
   .solving__title {
-    width: 450px;
+    width: 807px;
     font-weight: 800;
-    font-size: 24px;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+  }
+  .solving__help-text {
+    font-weight: 800;
+    font-size: 46px;
     line-height: 130%;
     letter-spacing: 0.03em;
   }
@@ -548,6 +560,21 @@ body {
   .solving__item {
     width: 336px;
     margin-bottom: 0px;
+  }
+  .solving__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.08em;
+  }
+  .solving__benefits {
+    top: 348px;
+  }
+  .solving__span {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
   }
 }
 .activity {
