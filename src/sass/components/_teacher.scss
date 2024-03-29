@@ -1,133 +1,168 @@
+.teacher {
+  margin-bottom: 129px;
+}
 .teacher__wraper {
-    display: flex;
+  display: flex;
 }
 
 .teacher__svg {
-    fill: $accentColor;
-    width: 18px;
-    height: 14px;
-    margin-right: 9px;
+  fill: $accentColor;
+  width: 18px;
+  height: 14px;
+  margin-right: 9px;
 }
 
 .teacher__title {
-    color: $titleColor;
-    padding-bottom: 30px;
-    font-size: 20px;
-    font-weight: 800;
+  color: $titleColor;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .teacher__img {
-    width: 243px;
+  width: 243px;
 }
 
 .teacher__name {
-    color: $titleColor;
-    padding-top: 20px;
-    font-size: 20px;
-    font-weight: 800;
+  color: $titleColor;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .teacher__text {
-    color: $titleColor;
-    font-size: 14px;
-    font-weight: 600;
-    padding-bottom: 20px;
+  color: $titleColor;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
 }
 
 .teacher__text-two {
-    color: $textColor;
-    font-size: 12px;
-    font-weight: 500;
-    padding-bottom: 15px;
+  color: $textColor;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 167%;
 }
 
 .teacher__small-line {
-    width: 20px;
-    height: 2px;
-    background-color: $accentColor;
-    margin-bottom: 20px;
+  width: 20px;
+  height: 2px;
+  background-color: $accentColor;
+  margin-bottom: 20px;
 }
 
 .teacher__line {
-    width: 280px;
-    height: 1px;
-    background-color: $textColor;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  width: 280px;
+  height: 1px;
+  background-color: $textColor;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-
 .teacher__button {
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: $accentColor;
-    font-size: 12px;
-    font-weight: 500;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: $accentColor;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 167%;
 }
-
 .teacher__item {
-    display: flex;
+  display: flex;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  &:last-child {
+    margin-bottom: 23px;
+  }
+  &-two:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  &-two:last-child {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .teacher__title {
-        font-size: 26px;
-    }
-
-    .teacher__line {
-        width: 403px;
-    }
-
-    .teacher__text {
-        font-size: 12px;
-    }
-
-    .teacher__text-two {
-        font-size: 10px;
-    }
-
-    .teacher__wrap {
-        margin-right: 42px;
-    }
-
-    .teacher__subwrap {
-        width: 403px;
-        margin-top: 64px;
-    }
+  .teacher__title {
+    font-size: 26px;
+  }
+  .teacher__name {
+    padding-top: 0;
+  }
+  .teacher__line {
+    width: 403px;
+  }
+  .teacher__item:last-child {
+    margin-bottom: 30px;
+  }
+  .teacher__text {
+    font-size: 12px;
+  }
+  .teacher__text-two {
+    font-size: 10px;
+    line-height: 200%;
+  }
+  .teacher__wrap {
+    margin-right: 42px;
+  }
+  .teacher__subwrap {
+    width: 403px;
+    margin-top: 64px;
+  }
 }
 @media screen and (min-width: 1344px) {
-    .teacher__img {
-        width: 530px;
-    }
-    .teacher__title {
-        padding-bottom: 50px;
-        font-size: 46px;
-    }
-    .teacher__name{
-        font-size: 30px;
-        padding-bottom: 15px;
-    }
-    .teacher__svg {
-        width: 25px;
-        height: 20px;
-        margin-right: 34px;
-    }
-    .teacher__text {
-        font-size: 16px;
-        padding-bottom: 43px;
-    }
-    .teacher__small-line {
-        width: 20px;
-        height: 2px;
-        margin-bottom: 43px;
-    }
-    .teacher__text-two {
-        font-size: 18px;
-        padding-bottom: 28px;
-    }
-    .teacher__line {
-        width: 640px;
-    }
-    .teacher__button{
-        font-size: 18px;
-    }
+  .teacher__img {
+    width: 530px;
+  }
+  .teacher__title {
+    padding-bottom: 50px;
+    font-size: 46px;
+  }
+  .teacher__name {
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+  .teacher__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .teacher__item:last-child {
+    margin-bottom: 43px;
+  }
+  .teacher__subwrap {
+    width: 642px;
+    margin-top: 107px;
+  }
+  .teacher__svg {
+    width: 25px;
+    height: 20px;
+    margin-right: 34px;
+  }
+  .teacher__text {
+    font-size: 16px;
+    width: 530px;
+  }
+  .teacher__small-line {
+    width: 20px;
+    height: 2px;
+    margin-bottom: 43px;
+  }
+  .teacher__item-two:not(:last-child) {
+    margin-bottom: 28px;
+  }
+  .teacher__item-two:last-child {
+    margin-bottom: 22px;
+  }
+  .teacher__text-two {
+    font-size: 18px;
+    line-height: 156%;
+  }
+  .teacher__line {
+    width: 640px;
+    margin-bottom: 30px;
+  }
+  .teacher__button {
+    font-size: 18px;
+    font-size: 18px;
+    line-height: 156%;
+  }
 }
