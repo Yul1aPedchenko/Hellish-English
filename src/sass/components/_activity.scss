@@ -89,6 +89,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 25px;
   }
   .activity__item {
     width: 334px;
@@ -100,4 +101,29 @@
       margin-bottom: 20px;
     }
   }
+}
+@media screen and (min-width: 1344px) {
+    .activity__title {
+        font-size: 46px;
+        text-align: left;
+        margin-bottom: 47px;
+      }
+      .activity__list{
+        padding: 0 0;
+      }
+      .activity__item {   
+        padding: 55px 28px;
+        width: 418px;
+      }
+      .activity__name {
+        font-size: 20px;
+        line-height: 140%;
+        width: 362px;
+        margin-top: 28px;
+      }
+      .activity__text {
+        font-size: 18px;
+        line-height: 156%;
+        margin-top: 32px;
+      }      
 }
