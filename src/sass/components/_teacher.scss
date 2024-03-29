@@ -1,67 +1,96 @@
-.teacher__svg{
+.teacher__wraper {
+    display: flex;
+}
+
+.teacher__svg {
     fill: $accentColor;
     width: 18px;
     height: 14px;
-    margin-right: 9px                                               ;
+    margin-right: 9px;
 }
-.teacher__title{
+
+.teacher__title {
     color: $titleColor;
     padding-bottom: 30px;
     font-size: 20px;
     font-weight: 800;
 }
-.teacher__name{
+
+.teacher__img {
+    width: 243px;
+}
+
+.teacher__name {
     color: $titleColor;
     padding-top: 20px;
     font-size: 20px;
     font-weight: 800;
 }
-.teacher__text{
+
+.teacher__text {
     color: $titleColor;
     font-size: 14px;
     font-weight: 600;
     padding-bottom: 20px;
 }
-.teacher__text-two{
+
+.teacher__text-two {
     color: $textColor;
     font-size: 12px;
     font-weight: 500;
     padding-bottom: 15px;
 }
-.teacher__small-line{
+
+.teacher__small-line {
     width: 20px;
     height: 2px;
     background-color: $accentColor;
     margin-bottom: 20px;
 }
-.teacher__line{
+
+.teacher__line {
     width: 280px;
     height: 1px;
     background-color: $textColor;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.teacher__button{
+
+.teacher__button {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: $accentColor;
     font-size: 12px;
     font-weight: 500;
 }
-.teacher__item{
+
+.teacher__item {
     display: flex;
 }
+
 @media screen and (min-width: 768px) {
-    .teacher__title{
+    .teacher__title {
         font-size: 26px;
     }
-    .teacher__line{
+
+    .teacher__line {
         width: 403px;
     }
-    .teacher__text{
+
+    .teacher__text {
         font-size: 12px;
     }
-    .teacher__text-two{
+
+    .teacher__text-two {
         font-size: 10px;
+    }
+
+    .teacher__wrap {
+        margin-right: 42px;
+    }
+
+    .teacher__subwrap {
+        width: 403px;
+        margin-top: 64px;
     }
 }
