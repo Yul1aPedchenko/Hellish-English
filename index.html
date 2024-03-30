@@ -877,6 +877,20 @@
   </div> 
 </section>
 
+    <div class="backdrop is-hidden" form-modal>
+  <div class="modal">
+    <div class="modal__box-close" form-modal-close>
+      <svg class="modal__icon-close" width="31" height="31">
+        <use href="/Hellish-English/assets/symbol-defs-b8f6aedd.svg#icon-close"></use>
+      </svg>
+    </div>
+    <div class="modal__wrap">
+      <h2 class="modal__title">We will contact <span class="modal__span">you</span>later</h2>
+      <p class="modal__text">thank you for your trust</p>
+    </div>
+  </div>
+</div>
+
     <section class="footer">
   <div class="container">
     <div class="footer__wrap">
@@ -962,6 +976,22 @@
       })();
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./js/modal.js"></script>
+    <script>
+      (() => {
+        const refs = {
+          openModalBtn: document.querySelector('[form-modal-open]'),
+          closeModalBtn: document.querySelector('[form-modal-close]'),
+          modal: document.querySelector('[form-modal]'),
+        };
+
+        refs.openModalBtn.addEventListener('click', toggleModal);
+        refs.closeModalBtn.addEventListener('click', toggleModal);
+
+        function toggleModal() {
+          refs.modal.classList.toggle('is-hidden');
+          document.body.classList.toggle('no-scroll');
+        }
+      })();
+    </script>
   </body>
 </html>
