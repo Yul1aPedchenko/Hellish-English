@@ -33,6 +33,7 @@
     <load href="partials/guarantee.html" />
     <load href="partials/reviews.html" />
     <load href="partials/form.html" />
+    <load href="partials/modal.html" />
     <load href="partials/footer.html" />
 
     <script
@@ -73,6 +74,22 @@
       })();
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./js/modal.js"></script>
+    <script>
+      (() => {
+        const refs = {
+          openModalBtn: document.querySelector('[form-modal-open]'),
+          closeModalBtn: document.querySelector('[form-modal-close]'),
+          modal: document.querySelector('[form-modal]'),
+        };
+
+        refs.openModalBtn.addEventListener('click', toggleModal);
+        refs.closeModalBtn.addEventListener('click', toggleModal);
+
+        function toggleModal() {
+          refs.modal.classList.toggle('is-hidden');
+          document.body.classList.toggle('no-scroll');
+        }
+      })();
+    </script>
   </body>
 </html>
