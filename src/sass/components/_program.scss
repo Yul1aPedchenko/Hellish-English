@@ -16,7 +16,7 @@
   text-align: center;
   position: relative;
   &__wrap {
-    display: flex;
+    position: relative;
   }
   &__title {
     font-weight: 800;
@@ -41,7 +41,7 @@
 }
 .semester {
   text-align: left;
-  max-width: 176px;
+  width: 176px;
   &:not(:first-child) {
     margin-top: 40px;
   }
@@ -65,6 +65,9 @@
     left: -34px;
     top: 8px;
     position: absolute;
+  }
+  &__span {
+    margin-right: 7px;
   }
   &__wrap {
     display: flex;
@@ -180,7 +183,7 @@
     }
   }
   .semester {
-    max-width: 550px;
+    width: 550px;
     &:not(:first-child) {
       margin-top: 30px;
     }
@@ -250,8 +253,107 @@
       );
     background-position-y: bottom;
     background-position-x: left;
+    padding-top: 120px;
+    padding-bottom: 326px;
+    margin-bottom: 194px;
+    &__title {
+      font-size: 46px;
+      margin-bottom: 58px;
+    }
+    &__list {
+      display: flex;
+    }
   }
   .program__small-line {
     display: none;
+  }
+  .program__big-line {
+    border: 1.5px solid $secondaryTextColor;
+    position: absolute;
+    top: 118px;
+    width: 100%;
+  }
+  .semester {
+    width: 226px;
+    &:not(:first-child) {
+      margin-top: 0;
+      margin-left: 46px;
+    }
+    &__title {
+      margin-top: 48px;
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+    &__title::before {
+      display: block;
+      left: 0;
+      top: -53px;
+      height: 16px;
+      width: 16px;
+    }
+    &__list {
+      flex-direction: column;
+      margin-right: 0;
+    }
+    &__item {
+      width: 226px;
+    }
+    &__item:not(:last-child) {
+      margin-bottom: 25px;
+      margin-right: 0;
+    }
+    &__wrap {
+      height: 33px;
+      margin-bottom: 9px;
+    }
+    &__line {
+      margin-right: 9px;
+    }
+    &__span {
+      margin-right: 9px;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 93%;
+    }
+    &__subtitle {
+      font-size: 20px;
+    }
+    &__subitem {
+      width: 226px;
+    }
+    &__text {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 156%;
+    }
+  }
+  .benefits {
+    width: 1314px;
+    top: 981px;
+    &__wrap {
+      padding: 67px 113px;
+    }
+    &__title {
+      display: none;
+    }
+    &__item {
+      width: 336px;
+      &:nth-child(n + 3) {
+        margin-top: 0;
+      }
+      &:nth-child(n + 4) {
+        margin-top: 30px;
+      }
+    }
+    &__subtitle {
+      font-size: 20px;
+      &::before {
+        width: 20px;
+      }
+    }
+    &__text {
+      font-size: 20px;
+      line-height: 120%;
+    }
   }
 }

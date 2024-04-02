@@ -5,15 +5,27 @@
     flex-direction: column;
     align-items: center;
   }
+  &__logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 22px;
+  }
   &__link {
     font-weight: 600;
     font-size: 12px;
     letter-spacing: 0.08em;
     text-align: center;
     color: #111518;
+    align-items: center;
+    display: flex;
+  }
+  &__phone-icon {
+    fill: $accentColor;
+    margin-right: 10px;
   }
   &__rights {
-    background-color: black;
+    background-color: $titleColor;
   }
   &__text {
     padding-top: 20px;
@@ -24,51 +36,60 @@
     line-height: 200%;
     color: #b9b9b9;
   }
-
   &__instagram {
-    margin: 50px 125px;
+    margin: 29px auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer {
-
-    
-    &__logo{
-        margin-left: 40px;
-        margin-top: 40px;
+    &__logo {
+      margin-top: 50px;
+      margin-bottom: 40px;
     }
-
-
-    &__list{
-        display: flex;
-        flex-direction: row;
+    &__wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
-   
-
+    &__list {
+      display: flex;
+      flex-direction: row;
+    }
     &__link {
-        margin-bottom: 120px;
       font-weight: 600;
-      font-size:20px;
+      font-size: 20px;
       letter-spacing: 0.08em;
       color: #111518;
+      position: relative;
     }
     &__rights {
-      background-color: black;
+      background-color: $titleColor;
     }
     &__text {
       padding-top: 20px;
-      padding-bottom: 20px;
       text-align: left;
       font-weight: 500;
       font-size: 14px;
       line-height: 200%;
       color: #b9b9b9;
     }
-
     &__instagram {
-        margin-left: 200px;
-        margin-top: -100px;
-      }
+      margin: 0 0;
+    }
+    &__item:last-child {
+      margin-left: 20px;
+      padding-left: 20px;
+      position: relative;
+    }
+    &__item:last-child::before {
+      content: '';
+      display: inline-block;
+      height: 40px;
+      width: 1px;
+      background-color: $textColor;
+      position: absolute;
+      left: 0;
+    }
   }
 }
