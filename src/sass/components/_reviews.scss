@@ -31,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 52px;
   }
   &__icon-wrap {
     text-align: center;
@@ -130,6 +131,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-top: 40px;
     }
     &__name {
       font-family: 'Montserrat';
@@ -166,14 +168,16 @@
     .reviews__item:nth-child(n + 2) {
       display: block;
     }
+    &__item {
+      margin-right: 0;
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .arrow-mobile {
-    display: none;
-  }
-
+@media screen and (min-width: 1344px) {
   .reviews {
     &__title {
       font-family: 'Montserrat';
