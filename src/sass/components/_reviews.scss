@@ -53,6 +53,7 @@ display: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 52px;
   }
   &__icon-wrap {
     text-align: center;
@@ -172,6 +173,7 @@ display: none;
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-top: 40px;
     }
     &__name {
       font-family: 'Montserrat';
@@ -208,17 +210,16 @@ display: none;
     .reviews__item:nth-child(n + 2) {
       display: block;
     }
+    &__item {
+      margin-right: 0;
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
   }
 }
-
-@media screen and (min-width: 1200px) {
-
-
-
-
+@media screen and (min-width: 1344px) {
   .reviews {
-  
-
     &__left {
       position: relative;
       bottom: 880px;

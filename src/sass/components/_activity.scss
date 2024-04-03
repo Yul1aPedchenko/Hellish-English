@@ -10,9 +10,9 @@
   color: $titleColor;
   margin-bottom: 30px;
 }
-
 .activity__item {
   box-shadow: 0 8px 26px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
   padding: 30px 20px;
   width: 290px;
   transition: background-color 250ms ease-in-out;
@@ -20,11 +20,9 @@
     margin-bottom: 15px;
   }
 }
-
 .activity__wrap {
   text-align: center;
 }
-
 .activity__icon {
   height: 55px;
   fill: $accentColor;
@@ -103,27 +101,39 @@
   }
 }
 @media screen and (min-width: 1344px) {
-    .activity__title {
-        font-size: 46px;
-        text-align: left;
-        margin-bottom: 47px;
-      }
-      .activity__list{
-        padding: 0 0;
-      }
-      .activity__item {   
-        padding: 55px 28px;
-        width: 418px;
-      }
-      .activity__name {
-        font-size: 20px;
-        line-height: 140%;
-        width: 362px;
-        margin-top: 28px;
-      }
-      .activity__text {
-        font-size: 18px;
-        line-height: 156%;
-        margin-top: 32px;
-      }      
+  .activity__title {
+    font-size: 46px;
+    text-align: left;
+    margin-bottom: 47px;
+  }
+  .activity__list {
+    padding: 0 0;
+  }
+  .activity__item {
+    padding: 55px 28px;
+    width: 418px;
+    &:nth-child(-n + 4) {
+      margin-bottom: 0;
+    }
+    &:nth-child(-n + 3) {
+      margin-bottom: 20px;
+    }
+  }
+  .activity__item:nth-child(4) {
+    padding: 55px 48px;
+    .activity__name {
+      width: 200px;
+    }
+  }
+  .activity__name {
+    font-size: 20px;
+    line-height: 140%;
+    width: 362px;
+    margin-top: 28px;
+  }
+  .activity__text {
+    font-size: 18px;
+    line-height: 156%;
+    margin-top: 32px;
+  }
 }

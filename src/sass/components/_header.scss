@@ -111,13 +111,13 @@
   height: 30px;
 }
 @media screen and (min-width: 767px) {
-  .header__mobile-wrap{
+  .header__mobile-wrap {
     margin: 0 auto;
   }
   .header__mobile-list {
     margin-top: 72px;
   }
-  .header__mobile-link{
+  .header__mobile-link {
     font-size: 26px;
   }
   .header__mobile-close {
@@ -128,7 +128,7 @@
     width: 128px;
     height: 45px;
   }
-  .header__mobile-logo{
+  .header__mobile-logo {
     margin-right: 253px;
   }
   .header__mobile-button {
@@ -169,6 +169,7 @@
   .header__wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1314px;
   }
   .header__logo {
@@ -178,12 +179,40 @@
     width: 128px;
     height: 120px;
   }
-  .header__list{
+
+  .header__list {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 623px;
   }
-  .header__nav{
-    display: flex;
+
+  .header__button {
+    width: 335px;
+    height: 70px;
+    background-color: rgba($color: #000000, $alpha: 0);
+    border: 2px solid $accentColor;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $accentColor;
+    cursor: pointer;
+    &:hover {
+      background-color: $accentColor;
+      color: $secondaryTextColor;
+    }
   }
-  
+  .header__link {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $textColor;
+    &:hover,
+    &:focus{
+      color: $accentColor;
+    }
+  }
 }

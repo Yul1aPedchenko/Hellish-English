@@ -1,5 +1,5 @@
 .teacher {
-  margin-bottom: 129px;
+  margin-top: 70px;
 }
 .teacher__svg {
   fill: $accentColor;
@@ -112,6 +112,9 @@
   }
 }
 @media screen and (min-width: 1344px) {
+  .teacher {
+  margin-top: 130px;
+}
   .teacher__img {
     width: 530px;
   }
