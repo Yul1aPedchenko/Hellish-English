@@ -107,7 +107,7 @@
   .reviews {
     &__left {
       position: absolute;
-      left: -12px;
+      left: 0px;
       top: 219px;
       fill: #ff6b09;
       width: 25px;
@@ -115,7 +115,7 @@
     }
     &__right {
       position: absolute;
-      left: 725px;
+      left: 700px;
       top: 219px;
       fill: #ff6b09;
       width: 25px;
@@ -126,6 +126,7 @@
       justify-content: space-between;
       padding: 40px;
       box-shadow: -5px 8px 26px 0 rgba(0, 0, 0, 0.04);
+      margin: 0 20px;
     }
     &__fotoblog {
       width: 150px;
