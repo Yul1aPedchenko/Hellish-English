@@ -93,3 +93,16 @@
     }
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .footer{
+  
+
+  &__contacts{
+    position: relative;
+    right: 480px;
+  }
+
+
+  }
+}
