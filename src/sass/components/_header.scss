@@ -79,6 +79,7 @@
   line-height: 180%;
   letter-spacing: 0.03em;
   color: $secondaryTextColor;
+  transition: color 250ms ease-in-out;
   &:hover {
     color: $accentColor;
   }
@@ -101,6 +102,8 @@
   color: $accentColor;
   background-color: rgba(0, 0, 0, 0);
   margin: 0 auto;
+  transition: color 250ms ease-in-out;
+  transition: border 250ms ease-in-out;
   &:hover {
     color: $secondaryTextColor;
     border: 2px solid $secondaryTextColor;
@@ -156,6 +159,12 @@
     border: 2px solid $accentColor;
     padding: 15px 19px;
     background-color: $secondaryTextColor;
+    transition: color 250ms ease-in-out;
+    transition: background-color 250ms ease-in-out;
+    &:hover {
+      background-color: $accentColor;
+      color: $secondaryTextColor;
+    }
   }
 }
 
@@ -177,7 +186,7 @@
   }
   .header__computer-logo {
     width: 128px;
-    height: 120px;
+    height: 45px;
   }
 
   .header__list {
@@ -199,6 +208,8 @@
     text-align: center;
     color: $accentColor;
     cursor: pointer;
+    transition: color 250ms ease-in-out;
+    transition: background-color 250ms ease-in-out;
     &:hover {
       background-color: $accentColor;
       color: $secondaryTextColor;
@@ -210,8 +221,9 @@
     text-transform: uppercase;
     text-align: center;
     color: $textColor;
+    transition: color 250ms ease-in-out;
     &:hover,
-    &:focus{
+    &:focus {
       color: $accentColor;
     }
   }
