@@ -993,6 +993,11 @@ body {
   letter-spacing: 0.08em;
   color: #b9b9b9;
   opacity: 0.5;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+.semester__text:hover {
+  color: #FFFFFF;
 }
 
 .benefits {
