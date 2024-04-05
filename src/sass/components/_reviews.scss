@@ -1,3 +1,12 @@
+.reviews__left:active{
+fill: gray;
+
+}
+
+.reviews__right:active{
+  fill: gray;
+  
+  }
 .reviews {
   padding-top: 70px;
   padding-bottom: 61px;
@@ -98,6 +107,14 @@
   &__item {
     margin-right: 10px;
   }
+
+  .reviews__item:hover{
+
+    transition-duration: 250ms; 
+    transition-timing-function: $time-function; 
+    transform: scale(1.25);
+  }
+
   .reviews__item:nth-child(n + 4) {
     display: none;
   }
@@ -183,6 +200,7 @@
       text-align: left;
       justify-content: flex-start;
     }
+    
     .reviews__item:nth-child(n + 2) {
       display: block;
     }
