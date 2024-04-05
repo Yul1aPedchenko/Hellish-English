@@ -1,3 +1,32 @@
+%button{
+  border: 1px solid transparent;
+  font-size: 12px;
+  background-color: #ff6b09;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 14px 46px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 auto;
+}
+
+%input-form{
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 15.5px 0;
+  margin-right: 20px;
+  width: 260px;
+  padding-left: 20px;
+  font-weight: 600;
+  min-width: 290px;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  color: #fff;
+  margin: 0 auto;
+}
+
+
+
 .form {
   background-repeat: no-repeat;
   padding: 55px 0;
@@ -51,33 +80,14 @@
     margin-bottom: 50px;
   }
   &__input {
-    border: 1px solid white;
-    background-color: transparent;
-    padding: 15.5px 0;
-    margin-right: 20px;
-    width: 260px;
-    padding-left: 20px;
-    font-weight: 600;
-    min-width: 290px;
-    font-size: 14px;
-    letter-spacing: 0.08em;
-    color: #fff;
-    margin: 0 auto;
+    @extend %input-form;
     &::placeholder {
       color: $secondaryTextColor;
       font-size: 14px;
     }
   }
   &__button {
-    border: 1px solid transparent;
-    font-size: 12px;
-    background-color: #ff6b09;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    padding: 14px 46px;
-    text-transform: uppercase;
-    color: white;
-    margin: 0 auto;
+    @extend %button;
   }
 }
 @media screen and (min-width: 768px) {
