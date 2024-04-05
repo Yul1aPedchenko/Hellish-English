@@ -17,6 +17,10 @@
 
 .teacher__img {
   width: 243px;
+  transition: transform 500ms ease-in-out;
+}
+.teacher__img:hover{
+  transform: scale(1.1);
 }
 
 .teacher__name {
@@ -62,6 +66,10 @@
   font-size: 12px;
   font-weight: 500;
   line-height: 167%;
+  transition: color 250ms ease-in-out;
+}
+.teacher__button:hover{
+    color: $colorHoverButton;
 }
 .teacher__item {
   display: flex;
