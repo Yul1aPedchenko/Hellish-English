@@ -2361,6 +2361,11 @@ body {
     letter-spacing: 0.08em;
     color: #111518;
     position: relative;
+    -webkit-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
+  }
+  .footer__link:hover {
+    color: #ff6b09;
   }
   .footer__rights {
     background-color: #111518;
