@@ -15,7 +15,7 @@
   margin: 0 auto;
   padding: 30px 20px;
   width: 290px;
-  transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
   &:not(:last-child) {
     margin-bottom: 15px;
   }

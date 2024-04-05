@@ -764,8 +764,8 @@ body {
   margin: 0 auto;
   padding: 30px 20px;
   width: 290px;
-  -webkit-transition: background-color 250ms ease-in-out;
-  transition: background-color 250ms ease-in-out;
+  -webkit-transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 }
 .activity__item:not(:last-child) {
   margin-bottom: 15px;
