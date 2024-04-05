@@ -32,7 +32,7 @@
 }
 .solving {
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 220px;
   background-color: $titleColor;
   padding-bottom: 365px;
 }
@@ -93,12 +93,12 @@
 @media screen and (min-width: 1344px) {
   .solving {
     background-image: url(../img/solving/campfire-desktop.png),
-    -webkit-image-set(url(../img/solving/campfire-desktop.webp) 1x, url(../img/solving/campfire-desktop@2x.webp)
-          2x),
-    image-set(
-      url(../img/solving/campfire-desktop.png) 1x,
-      url(../img/solving/campfire-desktop@2x.png) 2x
-    );
+      -webkit-image-set(url(../img/solving/campfire-desktop.webp) 1x, url(../img/solving/campfire-desktop@2x.webp)
+            2x),
+      image-set(
+        url(../img/solving/campfire-desktop.png) 1x,
+        url(../img/solving/campfire-desktop@2x.png) 2x
+      );
     padding-bottom: 280px;
     background-repeat: no-repeat;
     background-position: bottom right;

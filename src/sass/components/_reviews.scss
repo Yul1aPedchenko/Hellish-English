@@ -1,21 +1,34 @@
 .reviews {
   padding-top: 70px;
   padding-bottom: 61px;
+  &__wrapper {
+    position: relative;
+  }
   &__left {
+    position: absolute;
+    left: 0px;
+    top: 613px;
     fill: #ff6b09;
     width: 25px;
     height: 25px;
   }
   &__right {
+    position: absolute;
+    top: 613px;
     fill: #ff6b09;
     width: 25px;
+    right: 0;
     height: 25px;
   }
   &__fotoblog {
     margin: 0 auto;
     margin-top: 25px;
+    height: 90px;
+    width: 90px;
   }
-
+  &__facebook {
+    margin-top: 18px;
+  }
   &__title {
     margin: 0 auto;
     font-family: 'Montserrat';
@@ -31,6 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 52px;
   }
   &__icon-wrap {
     text-align: center;
@@ -43,6 +57,7 @@
     letter-spacing: 0.08em;
     color: #ff6b09;
     text-align: center;
+    margin-top: 22px;
   }
   &__history {
     width: 280px;
@@ -52,8 +67,8 @@
     letter-spacing: 0.08em;
     text-align: center;
     color: #b9b9b9;
-    margin-bottom: 16px;
     margin: 0 auto;
+    margin-bottom: 16px;
   }
   &__test {
     width: 280px;
@@ -89,31 +104,36 @@
 }
 
 @media screen and (min-width: 768px) {
-  .icon-facebook {
-    position: relative;
-    right: 95px;
-    top: 52px;
-  }
   .reviews {
     &__left {
+      position: absolute;
+      left: 0px;
+      top: 219px;
       fill: #ff6b09;
       width: 25px;
-      height: 80px;
+      height: 25px;
     }
     &__right {
+      position: absolute;
+      left: 700px;
+      top: 219px;
       fill: #ff6b09;
       width: 25px;
-      height: 80px;
+      height: 25px;
     }
     &__prewrap {
       display: flex;
       justify-content: space-between;
       padding: 40px;
       box-shadow: -5px 8px 26px 0 rgba(0, 0, 0, 0.04);
+      margin: 0 20px;
     }
     &__fotoblog {
       width: 150px;
       height: 150px;
+    }
+    &__facebook {
+      margin-top: 15px;
     }
     &__title {
       font-family: 'Montserrat';
@@ -130,6 +150,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-top: 40px;
     }
     &__name {
       font-family: 'Montserrat';
@@ -166,16 +187,52 @@
     .reviews__item:nth-child(n + 2) {
       display: block;
     }
+    &__item {
+      margin-right: 0;
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
   }
 }
-
-@media screen and (min-width: 1200px) {
-  .arrow-mobile {
-    display: none;
-  }
-
+@media screen and (min-width: 1344px) {
   .reviews {
+    padding-bottom: 130px;
+    &__left {
+      position: absolute;
+      fill: #ff6b09;
+      width: 25px;
+      height: 25px;
+      top: 292px;
+      left: 27px;
+    }
+    &__right {
+      position: absolute;
+      fill: #ff6b09;
+      width: 25px;
+      height: 25px;
+      top: 292px;
+      left: 1260px;
+    }
+    &__icon-wrap {
+      margin-top: 32px;
+    }
+    &__prewrap {
+      margin: 0 112px;
+      padding-top: 50px;
+      padding-bottom: 51px;
+      padding-right: 112px;
+      padding-left: 82px;
+    }
+    &__fotobloga {
+      display: block;
+      padding-bottom: 20px;
+    }
+    &__facebook {
+      margin-top: 18px;
+    }
     &__title {
+      width: 800px;
       font-family: 'Montserrat';
       font-weight: 800;
       font-size: 46px;
@@ -183,9 +240,11 @@
       letter-spacing: 0.03em;
       text-align: center;
       color: #111518;
+      margin-bottom: 50px;
     }
 
     &__list {
+      margin-top: 28px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -197,6 +256,28 @@
       font-size: 30px;
       letter-spacing: 0.08em;
       color: #ff6b09;
+      margin-bottom: 10px;
+    }
+    &__history {
+      width: 482px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 129%;
+      letter-spacing: 0.08em;
+      margin: 0;
+      margin-bottom: 18px;
+    }
+    &__test {
+      margin: 0;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 156%;
+      width: 706px;
+    }
+    &__link {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 156%;
     }
   }
 }
