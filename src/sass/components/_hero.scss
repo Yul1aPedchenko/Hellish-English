@@ -61,18 +61,8 @@
 .hero__button {
   width: 260px;
   height: 48px;
-  font-weight: 700;
   font-size: 12px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-align: center;
-  background-color: $accentColor;
-  color: $secondaryTextColor;
-  border: none;
-  cursor: pointer;
   margin: 0 auto;
-  transition: color 250ms ease-in-out;
-  transition: background-color 250ms ease-in-out;
   &:hover {
     background-color: $secondaryTextColor;
     color: $accentColor;
@@ -105,10 +95,7 @@
     display: block;
   }
   .hero__title {
-    font-weight: 800;
     font-size: 26px;
-    line-height: 130%;
-    letter-spacing: 0.03em;
     color: $titleColor;
     margin-bottom: 15px;
     width: 320px;

@@ -17,12 +17,14 @@
   fill: $accentColor;
   width: 15px;
   height: 20px;
+  margin-bottom: 6px;
 }
 .guarantee__span {
   color: $accentColor;
 }
 .guarantee__item {
   display: flex;
+  margin-bottom: 6px;
 }
 .guarantee__wrap {
   display: flex;
@@ -34,6 +36,9 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 167%;
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
 }
 @media screen and (min-width: 768px) {
   .guarantee__list {
@@ -41,6 +46,9 @@
   }
   .guarantee__text {
     font-size: 12px;
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
   }
   .guarantee__wrap {
     margin-right: 24px;

@@ -1,0 +1,19 @@
+@mixin button() {
+  background-color: $accentColor;
+  color: $secondaryTextColor;
+  border-radius: 4px;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+}
+@mixin title() {
+  color: $secondaryTextColor;
+  font-weight: 800;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
