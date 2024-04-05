@@ -394,6 +394,13 @@ body {
     height: 70px;
     font-size: 14px;
     letter-spacing: 0.14em;
+    transition: color 250ms ease-in-out;
+    transition: background-color 250ms ease-in-out;
+  }
+  .hero__button:hover {
+    background-color: #FFFFFF;
+    color: #ff6b09;
+    border: 2px solid #ff6b09;
   }
 }
 .advantages {
