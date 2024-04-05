@@ -425,6 +425,15 @@ body {
   border: none;
   cursor: pointer;
   margin: 0 auto;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+  -webkit-transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+}
+.hero__button:hover {
+  background-color: #FFFFFF;
+  color: #ff6b09;
+  border: 2px solid #ff6b09;
 }
 
 @media screen and (min-width: 768px) {
@@ -1291,6 +1300,15 @@ body {
 
 .teacher__img {
   width: 243px;
+  -webkit-transition: -webkit-transform 500ms ease-in-out;
+  transition: -webkit-transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+}
+
+.teacher__img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .teacher__name {
@@ -1338,6 +1356,12 @@ body {
   font-size: 12px;
   font-weight: 500;
   line-height: 167%;
+  -webkit-transition: color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+
+.teacher__button:hover {
+  color: #CC5607;
 }
 
 .teacher__item {
@@ -1552,6 +1576,14 @@ body {
     height: 30px;
   }
 }
+.reviews__left:active {
+  fill: gray;
+}
+
+.reviews__right:active {
+  fill: gray;
+}
+
 .reviews {
   padding-top: 70px;
   padding-bottom: 61px;
@@ -1662,6 +1694,14 @@ body {
 }
 .reviews__item {
   margin-right: 10px;
+}
+.reviews .reviews__item:hover {
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 .reviews .reviews__item:nth-child(n+4) {
   display: none;
@@ -1963,6 +2003,33 @@ body {
     font-size: 16px;
   }
 }
+.form__button {
+  border: 1px solid transparent;
+  font-size: 12px;
+  background-color: #ff6b09;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 14px 46px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 auto;
+}
+
+.form__input {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 15.5px 0;
+  margin-right: 20px;
+  width: 260px;
+  padding-left: 20px;
+  font-weight: 600;
+  min-width: 290px;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  color: #fff;
+  margin: 0 auto;
+}
+
 .form {
   background-repeat: no-repeat;
   padding: 55px 0;
@@ -2022,20 +2089,6 @@ body {
 .form__label:nth-child(2) {
   margin-bottom: 50px;
 }
-.form__input {
-  border: 1px solid white;
-  background-color: transparent;
-  padding: 15.5px 0;
-  margin-right: 20px;
-  width: 260px;
-  padding-left: 20px;
-  font-weight: 600;
-  min-width: 290px;
-  font-size: 14px;
-  letter-spacing: 0.08em;
-  color: #fff;
-  margin: 0 auto;
-}
 .form__input::-webkit-input-placeholder {
   color: #FFFFFF;
   font-size: 14px;
@@ -2056,18 +2109,6 @@ body {
   color: #FFFFFF;
   font-size: 14px;
 }
-.form__button {
-  border: 1px solid transparent;
-  font-size: 12px;
-  background-color: #ff6b09;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  padding: 14px 46px;
-  text-transform: uppercase;
-  color: white;
-  margin: 0 auto;
-}
-
 @media screen and (min-width: 768px) {
   .form {
     background-image: url(../img/form/form-bg-desktop.png), -webkit-image-set(url(../img/form/form-bg-desktop.webp) 1x, url(../img/form/form-bg-desktop@2x.webp) 2x), -webkit-image-set(url(../img/form/form-bg-desktop.png) 1x, url(../img/form/form-bg-desktop@2x.png));

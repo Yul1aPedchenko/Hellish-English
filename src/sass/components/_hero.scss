@@ -71,6 +71,13 @@
   border: none;
   cursor: pointer;
   margin: 0 auto;
+  transition: color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+  &:hover {
+    background-color: $secondaryTextColor;
+    color: $accentColor;
+    border: 2px solid $accentColor;
+  }
 }
 @media screen and (min-width: 768px) {
   .hero {
@@ -160,12 +167,5 @@
     height: 70px;
     font-size: 14px;
     letter-spacing: 0.14em;
-    transition: color 250ms ease-in-out;
-    transition: background-color 250ms ease-in-out;
-    &:hover{
-      background-color: $secondaryTextColor;
-      color: $accentColor;
-      border: 2px solid $accentColor;
-    }
   }
 }
