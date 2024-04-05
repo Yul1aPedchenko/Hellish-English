@@ -12,7 +12,7 @@
   background-color: $titleColor;
   padding-top: 50px;
   padding-bottom: 550px;
-  margin-bottom: 238px;
+  margin-bottom: 308px;
   text-align: center;
   position: relative;
   &__wrap {
@@ -98,6 +98,10 @@
     letter-spacing: 0.08em;
     color: $textColor;
     opacity: 0.5;
+    transition: color 250ms ease-in-out;
+    &:hover {
+      color: $secondaryTextColor;
+    }
   }
 }
 .benefits {
@@ -255,7 +259,7 @@
     background-position-x: left;
     padding-top: 120px;
     padding-bottom: 326px;
-    margin-bottom: 194px;
+    margin-bottom: 324px;
     &__title {
       font-size: 46px;
       margin-bottom: 58px;
