@@ -2111,8 +2111,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .form {
-    background-image: url(../img/form/form-bg-desktop.png), -webkit-image-set(url(../img/form/form-bg-desktop.webp) 1x, url(../img/form/form-bg-desktop@2x.webp) 2x), -webkit-image-set(url(../img/form/form-bg-desktop.png) 1x, url(../img/form/form-bg-desktop@2x.png));
-    background-image: url(../img/form/form-bg-desktop.png), -webkit-image-set(url(../img/form/form-bg-desktop.webp) 1x, url(../img/form/form-bg-desktop@2x.webp) 2x), image-set(url(../img/form/form-bg-desktop.png) 1x, url(../img/form/form-bg-desktop@2x.png));
+    background-image: url(../img/form/form-bg-tablet.png), -webkit-image-set(url(../img/form/form-bg-tablet.webp) 1x, url(../img/form/form-bg-tablet@2x.webp) 2x), -webkit-image-set(url(../img/form/form-bg-tablet.png) 1x, url(../img/form/form-bg-tablet@2x.png));
+    background-image: url(../img/form/form-bg-tablet.png), -webkit-image-set(url(../img/form/form-bg-tablet.webp) 1x, url(../img/form/form-bg-tablet@2x.webp) 2x), image-set(url(../img/form/form-bg-tablet.png) 1x, url(../img/form/form-bg-tablet@2x.png));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -2193,6 +2193,8 @@ body {
 }
 @media screen and (min-width: 1344px) {
   .form {
+    background-image: url(../img/form/form-bg-desktop.png), -webkit-image-set(url(../img/form/form-bg-desktop.webp) 1x, url(../img/form/form-bg-desktop@2x.webp) 2x), -webkit-image-set(url(../img/form/form-bg-desktop.png) 1x, url(../img/form/form-bg-desktop@2x.png));
+    background-image: url(../img/form/form-bg-desktop.png), -webkit-image-set(url(../img/form/form-bg-desktop.webp) 1x, url(../img/form/form-bg-desktop@2x.webp) 2x), image-set(url(../img/form/form-bg-desktop.png) 1x, url(../img/form/form-bg-desktop@2x.png));
     opacity: 9;
   }
   .form__title {
