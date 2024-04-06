@@ -90,16 +90,36 @@
 }
 @media screen and (min-width: 1344px) {
   .solving {
-    background-image: url(../img/solving/campfire-desktop.png),
-      -webkit-image-set(url(../img/solving/campfire-desktop.webp) 1x, url(../img/solving/campfire-desktop@2x.webp)
-            2x),
-      image-set(
-        url(../img/solving/campfire-desktop.png) 1x,
-        url(../img/solving/campfire-desktop@2x.png) 2x
-      );
+    background-image: url(../img/solving/campfire-desktop.png);
     padding-bottom: 280px;
     background-repeat: no-repeat;
     background-position: bottom right;
+  }
+  @supports (background-image: url(../img/solving/campfire-desktop.webp)) {
+    .solving {
+      background-image: url(../img/solving/campfire-desktop.webp);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+    }
+  }
+  @media (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .solving {
+      background-image: url(../img/solving/campfire-desktop@2x.png);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+    }
+    @supports (background-image: url(../img/solving/campfire-desktop@2x.webp)) {
+      .solving {
+        background-image: url(../img/solving/campfire-desktop@2x.webp);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+      }
+    }
   }
   .solving__subtitle {
     font-weight: 700;

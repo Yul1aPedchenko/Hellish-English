@@ -359,11 +359,32 @@ body {
 .hero {
   background-image: url(../img/hero/people-bg-mobile@1x.png), url(../img/hero/wave-bg-mobile@1x.png);
   background-repeat: no-repeat;
-  background-position: center bottom, center bottom, center bottom, top left;
-  background-size: auto, auto, auto, cover, cover, cover;
+  background-position: center bottom, top left;
+  background-size: auto, cover;
   padding-bottom: 232px;
 }
 
+@supports (background-image: url(../img/hero/people-bg-mobile@1x.webp), url(../img/hero/wave-bg-mobile@1x.webp)) {
+  .hero {
+    background-image: url(../img/hero/people-bg-mobile@1x.webp), url(../img/hero/wave-bg-mobile@1x.webp);
+    background-position: center bottom, top left;
+    background-size: auto, cover;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero/people-bg-mobile@2x.png), url(../img/hero/wave-bg-mobile@2x.png);
+    background-position: center bottom, top left;
+    background-size: auto, cover;
+  }
+  @supports (background-image: url(../img/hero/people-bg-mobile@2x.webp), url(../img/hero/wave-bg-mobile@2x.webp)) {
+    .hero {
+      background-image: url(../img/hero/people-bg-mobile@2x.webp), url(../img/hero/wave-bg-mobile@2x.webp);
+      background-position: center bottom, top left;
+      background-size: auto, cover;
+    }
+  }
+}
 .hero__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -436,13 +457,35 @@ body {
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url(../img/hero/people-bg-tablet@1x.png), -webkit-image-set(url(../img/hero/people-bg-tablet@1x.webp) 1x, url(../img/hero/people-bg-tablet@2x.webp) 2x), -webkit-image-set(url(../img/hero/people-bg-tablet@1x.png) 1x, url(../img/hero/people-bg-tablet@2x.png) 2x), url(../img/hero/wave-bg-tablet@1x.png), -webkit-image-set(url(../img/hero/wave-bg-tablet@1x.webp) 1x, url(../img/hero/wave-bg-tablet@2x.webp) 2x), -webkit-image-set(url(../img/hero/wave-bg-tablet@1x.png) 1x, url(../img/hero/wave-bg-tablet@2x.png) 2x);
-    background-image: url(../img/hero/people-bg-tablet@1x.png), -webkit-image-set(url(../img/hero/people-bg-tablet@1x.webp) 1x, url(../img/hero/people-bg-tablet@2x.webp) 2x), image-set(url(../img/hero/people-bg-tablet@1x.png) 1x, url(../img/hero/people-bg-tablet@2x.png) 2x), url(../img/hero/wave-bg-tablet@1x.png), -webkit-image-set(url(../img/hero/wave-bg-tablet@1x.webp) 1x, url(../img/hero/wave-bg-tablet@2x.webp) 2x), image-set(url(../img/hero/wave-bg-tablet@1x.png) 1x, url(../img/hero/wave-bg-tablet@2x.png) 2x);
+    background-image: url(../img/hero/people-bg-tablet@1x.png), url(../img/hero/wave-bg-tablet@1x.png);
     background-repeat: no-repeat;
-    background-position: top right, top right, top right, top left, top left, top left;
-    background-size: auto, auto, auto, cover, cover, cover;
+    background-position: top right, top left;
+    background-size: auto, cover;
     padding-bottom: 232px;
   }
+  @supports (background-image: url(../img/hero/people-bg-tablet@1x.webp), url(../img/hero/wave-bg-tablet@1x.webp)) {
+    .hero {
+      background-image: url(../img/hero/people-bg-tablet@1x.webp), url(../img/hero/wave-bg-tablet@1x.webp);
+      background-position: top right, top left;
+      background-size: auto, cover;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero/people-bg-tablet@2x.png), url(../img/hero/wave-bg-tablet@2x.png);
+    background-position: top right, top left;
+    background-size: auto, cover;
+  }
+  @supports (background-image: url(../img/hero/people-bg-tablet@2x.webp), url(../img/hero/wave-bg-tablet@2x.webp)) {
+    .hero {
+      background-image: url(../img/hero/people-bg-tablet@2x.webp), url(../img/hero/wave-bg-tablet@2x.webp);
+      background-position: top right, top left;
+      background-size: auto, cover;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
   .hero__wrap {
     display: block;
   }
@@ -458,14 +501,36 @@ body {
 }
 @media screen and (min-width: 1344px) {
   .hero {
-    background-image: url(../img/hero/people-bg-desktop@1x.png), -webkit-image-set(url(../img/hero/people-bg-desktop@1x.webp) 1x, url(../img/hero/people-bg-desktop@2x.webp) 2x), -webkit-image-set(url(../img/hero/people-bg-desktop@1x.png) 1x, url(../img/hero/people-bg-desktop@2x.png) 2x), url(../img/hero/wave-bg-desktop@1x.png), -webkit-image-set(url(../img/hero/wave-bg-desktop@1x.webp) 1x, url(../img/hero/wave-bg-desktop@2x.webp) 2x), -webkit-image-set(url(../img/hero/wave-bg-desktop@1x.png) 1x, url(../img/hero/wave-bg-desktop@2x.png) 2x);
-    background-image: url(../img/hero/people-bg-desktop@1x.png), -webkit-image-set(url(../img/hero/people-bg-desktop@1x.webp) 1x, url(../img/hero/people-bg-desktop@2x.webp) 2x), image-set(url(../img/hero/people-bg-desktop@1x.png) 1x, url(../img/hero/people-bg-desktop@2x.png) 2x), url(../img/hero/wave-bg-desktop@1x.png), -webkit-image-set(url(../img/hero/wave-bg-desktop@1x.webp) 1x, url(../img/hero/wave-bg-desktop@2x.webp) 2x), image-set(url(../img/hero/wave-bg-desktop@1x.png) 1x, url(../img/hero/wave-bg-desktop@2x.png) 2x);
+    background-image: url(../img/hero/people-bg-desktop@1x.png), url(../img/hero/wave-bg-desktop@1x.png);
     background-repeat: no-repeat;
-    background-position: center right, center right, center right, top left, top left, top left;
-    background-size: auto, auto, auto, cover, cover, cover;
+    background-position: center right, top left;
+    background-size: auto, cover;
     padding-bottom: 232px;
     padding-top: 55px;
   }
+  @supports (background-image: url(../img/hero/people-bg-desktop@1x.webp), url(../img/hero/wave-bg-desktop@1x.webp)) {
+    .hero {
+      background-image: url(../img/hero/people-bg-desktop@1x.webp), url(../img/hero/wave-bg-desktop@1x.webp);
+      background-position: center right, top left;
+      background-size: auto, cover;
+    }
+  }
+}
+@media screen and (min-width: 1344px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1344px) and (min-resolution: 192dpi), screen and (min-width: 1344px) and (min-device-pixel-ratio: 2), screen and (min-width: 1344px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero/people-bg-desktop@2x.png), url(../img/hero/wave-bg-desktop@2x.png);
+    background-position: center right, top left;
+    background-size: auto, cover;
+  }
+  @supports (background-image: url(../img/hero/people-bg-desktop@2x.webp), url(../img/hero/wave-bg-desktop@2x.webp)) {
+    .hero {
+      background-image: url(../img/hero/people-bg-desktop@2x.webp), url(../img/hero/wave-bg-desktop@2x.webp);
+      background-position: center right, top left;
+      background-size: auto, cover;
+    }
+  }
+}
+@media screen and (min-width: 1344px) {
   .hero__title {
     font-size: 58px;
     margin-bottom: 15px;
@@ -676,12 +741,34 @@ body {
 }
 @media screen and (min-width: 1344px) {
   .solving {
-    background-image: url(../img/solving/campfire-desktop.png), -webkit-image-set(url(../img/solving/campfire-desktop.webp) 1x, url(../img/solving/campfire-desktop@2x.webp) 2x), -webkit-image-set(url(../img/solving/campfire-desktop.png) 1x, url(../img/solving/campfire-desktop@2x.png) 2x);
-    background-image: url(../img/solving/campfire-desktop.png), -webkit-image-set(url(../img/solving/campfire-desktop.webp) 1x, url(../img/solving/campfire-desktop@2x.webp) 2x), image-set(url(../img/solving/campfire-desktop.png) 1x, url(../img/solving/campfire-desktop@2x.png) 2x);
+    background-image: url(../img/solving/campfire-desktop.png);
     padding-bottom: 280px;
     background-repeat: no-repeat;
     background-position: bottom right;
   }
+  @supports (background-image: url(../img/solving/campfire-desktop.webp)) {
+    .solving {
+      background-image: url(../img/solving/campfire-desktop.webp);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+    }
+  }
+}
+@media screen and (min-width: 1344px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1344px) and (min-resolution: 192dpi), screen and (min-width: 1344px) and (min-device-pixel-ratio: 2), screen and (min-width: 1344px) and (min-resolution: 2dppx) {
+  .solving {
+    background-image: url(../img/solving/campfire-desktop@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  @supports (background-image: url(../img/solving/campfire-desktop@2x.webp)) {
+    .solving {
+      background-image: url(../img/solving/campfire-desktop@2x.webp);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+    }
+  }
+}
+@media screen and (min-width: 1344px) {
   .solving__subtitle {
     font-weight: 700;
     font-size: 20px;
@@ -891,8 +978,7 @@ body {
   }
 }
 .program {
-  background-image: url(../img/program/program-bg-mobile.png), -webkit-image-set(url(../img/program/program-bg-mobile.webp) 1x, url(../img/program/program-bg-mobile@2x.webp) 2x), -webkit-image-set(url(../img/program/program-bg-mobile.png) 1x, url(../img/program/program-bg-mobile@2x.png) 2x);
-  background-image: url(../img/program/program-bg-mobile.png), -webkit-image-set(url(../img/program/program-bg-mobile.webp) 1x, url(../img/program/program-bg-mobile@2x.webp) 2x), image-set(url(../img/program/program-bg-mobile.png) 1x, url(../img/program/program-bg-mobile@2x.png) 2x);
+  background-image: url(../img/program/program-bg-mobile.png);
   background-repeat: no-repeat;
   background-position-y: 1460px;
   background-position-x: right;
@@ -933,6 +1019,27 @@ body {
   width: 0;
 }
 
+@supports (background-image: url(../img/program/program-bg-mobile.webp)) {
+  .program {
+    background-image: url(../img/program/program-bg-mobile.webp);
+    background-position-y: 1460px;
+    background-position-x: right;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .program {
+    background-image: url(../img/program/program-bg-mobile@2x.png);
+    background-position-y: 1460px;
+    background-position-x: right;
+  }
+  @supports (background-image: url(../img/program/program-bg-mobile@2x.webp)) {
+    .program {
+      background-image: url(../img/program/program-bg-mobile@2x.webp);
+      background-position-y: 1460px;
+      background-position-x: right;
+    }
+  }
+}
 .semester {
   text-align: left;
   width: 176px;
@@ -1071,8 +1178,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .program {
-    background-image: url(../img/program/program-bg-tablet.png), -webkit-image-set(url(../img/program/program-bg-tablet.webp) 1x, url(../img/program/program-bg-tablet@2x.webp) 2x), -webkit-image-set(url(../img/program/program-bg-tablet.png) 1x, url(../img/program/program-bg-tablet@2x.png) 2x);
-    background-image: url(../img/program/program-bg-tablet.png), -webkit-image-set(url(../img/program/program-bg-tablet.webp) 1x, url(../img/program/program-bg-tablet@2x.webp) 2x), image-set(url(../img/program/program-bg-tablet.png) 1x, url(../img/program/program-bg-tablet@2x.png) 2x);
+    background-image: url(../img/program/program-bg-tablet.png);
     background-position-y: 792px;
     padding-top: 60px;
     padding-bottom: 371px;
@@ -1094,6 +1200,29 @@ body {
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
+  @supports (background-image: url(../img/program/program-bg-tablet.webp)) {
+    .program {
+      background-image: url(../img/program/program-bg-tablet.webp);
+      background-position-y: 792px;
+      background-position-x: right;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .program {
+    background-image: url(../img/program/program-bg-tablet@2x.png);
+    background-position-y: 792px;
+    background-position-x: right;
+  }
+  @supports (background-image: url(../img/program/program-bg-tablet@2x.webp)) {
+    .program {
+      background-image: url(../img/program/program-bg-tablet@2x.webp);
+      background-position-y: 792px;
+      background-position-x: right;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
   .semester {
     width: 550px;
   }
@@ -1162,8 +1291,7 @@ body {
 }
 @media screen and (min-width: 1344px) {
   .program {
-    background-image: url(../img/program/program-bg-desktop.png), -webkit-image-set(url(../img/program/program-bg-desktop.webp) 1x, url(../img/program/program-bg-desktop@2x.webp) 2x), -webkit-image-set(url(../img/program/program-bg-desktop.png) 1x, url(../img/program/program-bg-desktop@2x.png) 2x);
-    background-image: url(../img/program/program-bg-desktop.png), -webkit-image-set(url(../img/program/program-bg-desktop.webp) 1x, url(../img/program/program-bg-desktop@2x.webp) 2x), image-set(url(../img/program/program-bg-desktop.png) 1x, url(../img/program/program-bg-desktop@2x.png) 2x);
+    background-image: url(../img/program/program-bg-desktop.png);
     background-position-y: bottom;
     background-position-x: left;
     padding-top: 120px;
@@ -1179,6 +1307,29 @@ body {
     display: -ms-flexbox;
     display: flex;
   }
+  @supports (background-image: url(../img/program/program-bg-desktop.webp)) {
+    .program {
+      background-image: url(../img/program/program-bg-desktop.webp);
+      background-position-y: bottom;
+      background-position-x: left;
+    }
+  }
+}
+@media screen and (min-width: 1344px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1344px) and (min-resolution: 192dpi), screen and (min-width: 1344px) and (min-device-pixel-ratio: 2), screen and (min-width: 1344px) and (min-resolution: 2dppx) {
+  .program {
+    background-image: url(../img/program/program-bg-desktop@2x.png);
+    background-position-y: bottom;
+    background-position-x: left;
+  }
+  @supports (background-image: url(../img/program/program-bg-desktop@2x.webp)) {
+    .program {
+      background-image: url(../img/program/program-bg-desktop@2x.webp);
+      background-position-y: bottom;
+      background-position-x: left;
+    }
+  }
+}
+@media screen and (min-width: 1344px) {
   .program__small-line {
     display: none;
   }
@@ -2037,8 +2188,7 @@ body {
   background-repeat: no-repeat;
   padding: 55px 0;
   opacity: 2;
-  background-image: url(../img/form/form-bg-mobile.png), -webkit-image-set(url(../img/form/form-bg-mobile.webp) 1x, url(../img/form/form-bg-mobile@2x.webp) 2x), -webkit-image-set(url(../img/form/form-bg-mobile.png) 1x, url(../img/form/form-bg-mobile@2x.png) 2x);
-  background-image: url(../img/form/form-bg-mobile.png), -webkit-image-set(url(../img/form/form-bg-mobile.webp) 1x, url(../img/form/form-bg-mobile@2x.webp) 2x), image-set(url(../img/form/form-bg-mobile.png) 1x, url(../img/form/form-bg-mobile@2x.png) 2x);
+  background-image: url(../img/form/form-bg-mobile.png);
   background-color: #111518;
   background-size: cover;
 }
@@ -2112,10 +2262,27 @@ body {
   color: #FFFFFF;
   font-size: 14px;
 }
+@supports (background-image: url(../img/form/form-bg-mobile.webp)) {
+  .program {
+    background-image: url(../img/form/form-bg-mobile.webp);
+    background-size: cover;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .program {
+    background-image: url(../img/form/form-bg-mobile@2x.png);
+    background-size: cover;
+  }
+  @supports (background-image: url(../img/form/form-bg-mobile@2x.webp)) {
+    .program {
+      background-image: url(../img/form/form-bg-mobile@2x.webp);
+      background-size: cover;
+    }
+  }
+}
 @media screen and (min-width: 768px) {
   .form {
-    background-image: url(../img/form/form-bg-tablet.png), -webkit-image-set(url(../img/form/form-bg-tablet.webp) 1x, url(../img/form/form-bg-tablet@2x.webp) 2x), -webkit-image-set(url(../img/form/form-bg-tablet.png) 1x, url(../img/form/form-bg-tablet@2x.png) 2x);
-    background-image: url(../img/form/form-bg-tablet.png), -webkit-image-set(url(../img/form/form-bg-tablet.webp) 1x, url(../img/form/form-bg-tablet@2x.webp) 2x), image-set(url(../img/form/form-bg-tablet.png) 1x, url(../img/form/form-bg-tablet@2x.png) 2x);
+    background-image: url(../img/form/form-bg-tablet.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -2190,11 +2357,31 @@ body {
     text-align: center;
     color: #fff;
   }
+  @supports (background-image: url(../img/form/form-bg-tablet.webp)) {
+    .program {
+      background-image: url(../img/form/form-bg-tablet.webp);
+      background-size: cover;
+      background-position: right;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .program {
+    background-image: url(../img/form/form-bg-tablet@2x.png);
+    background-size: cover;
+    background-position: right;
+  }
+  @supports (background-image: url(../img/form/form-bg-tablet@2x.webp)) {
+    .program {
+      background-image: url(../img/form/form-bg-tablet@2x.webp);
+      background-size: cover;
+      background-position: right;
+    }
+  }
 }
 @media screen and (min-width: 1344px) {
   .form {
-    background-image: url(../img/form/form-bg-desktop.png), -webkit-image-set(url(../img/form/form-bg-desktop.webp) 1x, url(../img/form/form-bg-desktop@2x.webp) 2x), -webkit-image-set(url(../img/form/form-bg-desktop.png) 1x, url(../img/form/form-bg-desktop@2x.png) 2x);
-    background-image: url(../img/form/form-bg-desktop.png), -webkit-image-set(url(../img/form/form-bg-desktop.webp) 1x, url(../img/form/form-bg-desktop@2x.webp) 2x), image-set(url(../img/form/form-bg-desktop.png) 1x, url(../img/form/form-bg-desktop@2x.png) 2x);
+    background-image: url(../img/form/form-bg-desktop.png);
     opacity: 9;
   }
   .form__title {
@@ -2269,6 +2456,27 @@ body {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
+  }
+  @supports (background-image: url(../img/form/form-bg-desktop.webp)) {
+    .program {
+      background-image: url(../img/form/form-bg-desktop.webp);
+      background-size: cover;
+      background-position: right;
+    }
+  }
+}
+@media screen and (min-width: 1344px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1344px) and (min-resolution: 192dpi), screen and (min-width: 1344px) and (min-device-pixel-ratio: 2), screen and (min-width: 1344px) and (min-resolution: 2dppx) {
+  .program {
+    background-image: url(../img/form/form-bg-desktop@2x.png);
+    background-size: cover;
+    background-position: right;
+  }
+  @supports (background-image: url(../img/form/form-bg-desktop@2x.webp)) {
+    .program {
+      background-image: url(../img/form/form-bg-desktop@2x.webp);
+      background-size: cover;
+      background-position: right;
+    }
   }
 }
 .footer__list {
