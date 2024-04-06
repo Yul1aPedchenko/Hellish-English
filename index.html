@@ -28,16 +28,17 @@
   <body>
     <header class="header" >
   <div class="header__menu-wrap">
-    <a href="#" class="header__mobile-logo">
+    <a href="#" class="header__mobile-logo" aria-label="logo">
       <svg class="header__mobile-logo-icon">
         <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-logo"></use>
       </svg>
     </a>
-    <button class="header__menu-btn">consultation by phone</button>
+    <button class="header__menu-btn" aria-label="open-header">consultation by phone</button>
     <button
       class="menu-toggle js-open-menu"
       aria-expanded="false"
       aria-controls="mobile-menu"
+      aria-label="open-menu"
     >
       <svg width="23" height="14">
         <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-menu"></use>
@@ -46,7 +47,7 @@
   </div>
   <div class="container header__div">
     <div class="header__wrap">
-      <a href="#" class="header__logo">
+      <a href="#" class="header__logo" aria-label="logo">
         <svg class="header__computer-logo">
           <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-logo"></use>
         </svg>
@@ -54,31 +55,31 @@
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__item">
-            <a href="#" class="header__link">Studying program</a>
+            <a href="#" class="header__link" aria-label="nav-link">Studying program</a>
           </li>
           <li class="header__item">
-            <a href="#" class="header__link">about</a>
+            <a href="#" class="header__link" aria-label="nav-link">about</a>
           </li>
           <li class="header__item">
-            <a href="#" class="header__link">training options</a>
+            <a href="#" class="header__link" aria-label="nav-link">training options</a>
           </li>
           <li class="header__item">
-            <a href="#" class="header__link">contacts</a>
+            <a href="#" class="header__link" aria-label="nav-link">contacts</a>
           </li>
         </ul>
       </nav>
-      <button class="header__button">consultation by phone</button>
+      <button class="header__button" aria-label="open-header">consultation by phone</button>
     </div>
   </div>
 </header>
 
 <div class="menu-container js-menu-container" id="mobile-menu">
-  <a href="./index.html" class="header__menu-logo">
+  <a href="./index.html" class="header__menu-logo" aria-label="menu logo">
     <svg class="header__mobile-logo-open">
       <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-logo-white"></use>
     </svg>
   </a>
-  <button class="menu-toggle js-close-menu">
+  <button class="menu-toggle js-close-menu" aria-label="close btn">
     <svg class="header__mobile-close">
       <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-close"></use>
     </svg>
@@ -86,21 +87,21 @@
   <div class="header__mobile-wrap">
     <ul class="header__mobile-list">
       <li class="header__mobile-item">
-        <a href="#" class="header__mobile-link">Studying program</a>
+        <a href="#" class="header__mobile-link" aria-label="menu nav">Studying program</a>
       </li>
       <li class="header__mobile-item">
-        <a href="#" class="header__mobile-link">About</a>
+        <a href="#" class="header__mobile-link" aria-label="menu nav">About</a>
       </li>
       <li class="header__mobile-item">
-        <a href="#" class="header__mobile-link">Training options</a>
+        <a href="#" class="header__mobile-link" aria-label="menu nav">Training options</a>
       </li>
       <li class="header__mobile-item">
-        <a href="#" class="header__mobile-link">Contacts</a>
+        <a href="#" class="header__mobile-link" aria-label="menu nav">Contacts</a>
       </li>
     </ul>
   </div>
 
-  <button class="header__mobile-button">Consultation by phone</button>
+  <button class="header__mobile-button" aria-label="button menu">Consultation by phone</button>
 </div>
 
     <section class="hero">
@@ -111,9 +112,9 @@
       </h1>
       <span class="hero__text" data-aos="fade-up"> It won’t be easy. </span>
       <p class="hero__description" data-aos="fade-up">
-        But you are guaranteed to get <a class="hero__orange">+25 points</a>
+        But you are guaranteed to get <a href="#" aria-label="get 25 points" class="hero__orange">+25 points</a>
       </p>
-      <button class="hero__button" data-aos="fade-up">
+      <button class="hero__button" data-aos="fade-up" aria-label="open-hero">
         i want a free lesson
       </button>
     </div>
@@ -151,7 +152,7 @@
       <h2 class="solving__title" data-aos="fade-right">
         The main problems of students in English
         <span class="solving__span">UPE</span>, which <br />
-        we <a href="#" class="solving__help-text">help</a> to solve
+        we <a href="#" class="solving__help-text" aria-label="help btn">help</a> to solve
       </h2>
     </div>
   </div>
@@ -657,7 +658,7 @@
             </p>
           </li>
         </ul>
-        <a href="#" class="teacher__button">
+        <a href="#" class="teacher__button" aria-label="Cambrige English Entry Level Certificate">
           Cambrige English Entry Level Certificate
         </a>
       </div>
@@ -847,7 +848,7 @@
             not tremble in class, fearing to make the slightest mistake. Now I
             can brag that I'm student ...
           </p>
-          <a href="#" class="reviews__link">Read more</a>
+          <a href="#" class="reviews__link" aria-label="read more">Read more</a>
         </div>
       </div>
       <ul class="reviews__list">
@@ -925,7 +926,7 @@
           <input type="phone" placeholder="Телефон*" id="phone" class="form__input" /> 
         </label> 
        
-        <button class="form__button" type="submit" form-modal-open>I WANT A FREE LESSON</button> 
+        <button class="form__button" type="submit" form-modal-open aria-label="open-form">I WANT A FREE LESSON</button> 
       </form> 
     </div> 
   </div> 
@@ -933,7 +934,7 @@
 
     <div class="backdrop is-hidden" form-modal>
   <div class="modal">
-    <div class="modal__box-close" form-modal-close>
+    <div class="modal__box-close" form-modal-close aria-label="close">
       <svg class="modal__icon-close" width="31" height="31">
         <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-close-modal"></use>
       </svg>
@@ -948,7 +949,7 @@
     <section class="footer">
   <div class="container">
     <div class="footer__wrap">
-      <a href="../index.html" class="footer__logo">
+      <a href="../index.html" class="footer__logo" aria-label="logo">
         <svg width="128px" height="45px">
           <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-logo"></use>
         </svg>
@@ -956,7 +957,7 @@
       <div class="footer__contacts" data-aos="fade-right">
         <ul class="footer__list">
           <li class="footer__item">
-            <a class="footer__link" href="tel:+380991234567"
+            <a class="footer__link" href="tel:+380991234567" aria-label="phone number"
               ><svg class="footer__phone-icon" width="20" height="20">
                 <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-phone"></use>
               </svg>
