@@ -8,19 +8,25 @@
 }
 @supports (background-image: url(../img/hero/people-bg-mobile@1x.webp), url(../img/hero/wave-bg-mobile@1x.webp)) {
     .hero {
-        background-image: url(../img/hero/wave-bg-mobile@1x.webp), url(../img/hero/wave-bg-mobile@1x.webp);
+        background-image: url(../img/hero/people-bg-mobile@1x.webp), url(../img/hero/wave-bg-mobile@1x.webp);
+        background-position: center bottom, top left;
+        background-size: auto, cover;
     }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     /* Retinization for PNG */
     .hero {
         background-image: url(../img/hero/people-bg-mobile@2x.png), url(../img/hero/wave-bg-mobile@2x.png);
+        background-position: center bottom, top left;
+        background-size: auto, cover;
     }
 
     /* Retinization for WebP */
     @supports (background-image: url(../img/hero/people-bg-mobile@2x.webp), url(../img/hero/wave-bg-mobile@2x.webp)) {
         .hero {
             background-image: url(../img/hero/people-bg-mobile@2x.webp), url(../img/hero/wave-bg-mobile@2x.webp);
+            background-position: center bottom, top left;
+            background-size: auto, cover;
         }
     }
 }
