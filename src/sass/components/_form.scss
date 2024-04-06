@@ -81,7 +81,7 @@
   }
 }
 @supports (background-image: url(../img/form/form-bg-mobile.webp)) {
-  .program {
+  .form {
     background-image: url(../img/form/form-bg-mobile.webp);
     background-size: cover;
   }
@@ -92,12 +92,12 @@
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .program {
+  .form {
     background-image: url(../img/form/form-bg-mobile@2x.png);
     background-size: cover;
   }
   @supports (background-image: url(../img/form/form-bg-mobile@2x.webp)) {
-    .program {
+    .form {
       background-image: url(../img/form/form-bg-mobile@2x.webp);
       background-size: cover;
     }
@@ -168,7 +168,7 @@
     }
   }
   @supports (background-image: url(../img/form/form-bg-tablet.webp)) {
-    .program {
+    .form {
       background-image: url(../img/form/form-bg-tablet.webp);
       background-size: cover;
       background-position: right;
@@ -180,13 +180,13 @@
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .program {
+    .form {
       background-image: url(../img/form/form-bg-tablet@2x.png);
       background-size: cover;
       background-position: right;
     }
     @supports (background-image: url(../img/form/form-bg-tablet@2x.webp)) {
-      .program {
+      .form {
         background-image: url(../img/form/form-bg-tablet@2x.webp);
         background-size: cover;
         background-position: right;
@@ -271,7 +271,7 @@
     }
   }
   @supports (background-image: url(../img/form/form-bg-desktop.webp)) {
-    .program {
+    .form {
       background-image: url(../img/form/form-bg-desktop.webp);
       background-size: cover;
       background-position: right;
@@ -283,13 +283,13 @@
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .program {
+    .form {
       background-image: url(../img/form/form-bg-desktop@2x.png);
       background-size: cover;
       background-position: right;
     }
     @supports (background-image: url(../img/form/form-bg-desktop@2x.webp)) {
-      .program {
+      .form {
         background-image: url(../img/form/form-bg-desktop@2x.webp);
         background-size: cover;
         background-position: right;

@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-position-y: 1460px;
   background-position-x: right;
+  background-size: 120px 137px;
   background-color: $titleColor;
   padding-top: 50px;
   padding-bottom: 550px;
@@ -36,6 +37,7 @@
     background-image: url(../img/program/program-bg-mobile.webp);
     background-position-y: 1460px;
     background-position-x: right;
+    background-size: 120px 137px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2),
@@ -48,12 +50,14 @@
     background-image: url(../img/program/program-bg-mobile@2x.png);
     background-position-y: 1460px;
     background-position-x: right;
+    background-size: 120px 137px;
   }
   @supports (background-image: url(../img/program/program-bg-mobile@2x.webp)) {
     .program {
       background-image: url(../img/program/program-bg-mobile@2x.webp);
       background-position-y: 1460px;
       background-position-x: right;
+      background-size: 120px 137px;
     }
   }
 }
@@ -180,6 +184,8 @@
   .program {
     background-image: url(../img/program/program-bg-tablet.png);
     background-position-y: 792px;
+    background-position-x: right;
+    background-size: 374px 273px;
     padding-top: 60px;
     padding-bottom: 371px;
     margin-bottom: 225px;
@@ -203,6 +209,7 @@
       background-image: url(../img/program/program-bg-tablet.webp);
       background-position-y: 792px;
       background-position-x: right;
+      background-size: 374px 273px;
     }
   }
   @media (-webkit-min-device-pixel-ratio: 2),
@@ -215,6 +222,7 @@
       background-image: url(../img/program/program-bg-tablet@2x.png);
       background-position-y: 792px;
       background-position-x: right;
+      background-size: 374px 273px;
     }
     @supports (
       background-image: url(../img/program/program-bg-tablet@2x.webp)
@@ -223,6 +231,7 @@
         background-image: url(../img/program/program-bg-tablet@2x.webp);
         background-position-y: 792px;
         background-position-x: right;
+        background-size: 374px 273px;
       }
     }
   }
@@ -291,6 +300,7 @@
     background-image: url(../img/program/program-bg-desktop.png);
     background-position-y: bottom;
     background-position-x: left;
+    background-size: 672px 502px;
     padding-top: 120px;
     padding-bottom: 326px;
     margin-bottom: 324px;
@@ -307,6 +317,7 @@
       background-image: url(../img/program/program-bg-desktop.webp);
       background-position-y: bottom;
       background-position-x: left;
+      background-size: 672px 502px;
     }
   }
   @media (-webkit-min-device-pixel-ratio: 2),
@@ -319,6 +330,7 @@
       background-image: url(../img/program/program-bg-desktop@2x.png);
       background-position-y: bottom;
       background-position-x: left;
+      background-size: 672px 502px;
     }
     @supports (
       background-image: url(../img/program/program-bg-desktop@2x.webp)
@@ -327,6 +339,7 @@
         background-image: url(../img/program/program-bg-desktop@2x.webp);
         background-position-y: bottom;
         background-position-x: left;
+        background-size: 672px 502px;
       }
     }
   }
