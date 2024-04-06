@@ -121,6 +121,7 @@
     color: $textColor;
     opacity: 0.5;
     transition: color 250ms ease-in-out;
+    cursor: pointer;
     &:hover {
       color: $secondaryTextColor;
     }
