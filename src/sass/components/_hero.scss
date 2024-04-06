@@ -1,9 +1,28 @@
 .hero {
   background-image: url(../img/hero/people-bg-mobile@1x.png), url(../img/hero/wave-bg-mobile@1x.png);
+
   background-repeat: no-repeat;
-  background-position: center bottom, center bottom, center bottom, top left;
-  background-size: auto, auto, auto, cover, cover, cover;
+  background-position: center bottom, top left;
+  background-size: auto, cover;
   padding-bottom: 232px;
+}
+@supports (background-image: url(../img/hero/people-bg-mobile@1x.webp), url(../img/hero/wave-bg-mobile@1x.webp)) {
+    .hero {
+        background-image: url(../img/hero/wave-bg-mobile@1x.webp), url(../img/hero/wave-bg-mobile@1x.webp);
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Retinization for PNG */
+    .hero {
+        background-image: url(../img/hero/people-bg-mobile@2x.png), url(../img/hero/wave-bg-mobile@2x.png);
+    }
+
+    /* Retinization for WebP */
+    @supports (background-image: url(../img/hero/people-bg-mobile@2x.webp), url(../img/hero/wave-bg-mobile@2x.webp)) {
+        .hero {
+            background-image: url(../img/hero/people-bg-mobile@2x.webp), url(../img/hero/wave-bg-mobile@2x.webp);
+        }
+    }
 }
 .hero__wrap {
   display: flex;
