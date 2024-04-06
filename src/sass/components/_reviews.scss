@@ -1,12 +1,10 @@
-.reviews__left:active{
-fill: gray;
-
+.reviews__left:active {
+  fill: gray;
 }
 
-.reviews__right:active{
+.reviews__right:active {
   fill: gray;
-  
-  }
+}
 .reviews {
   padding-top: 70px;
   padding-bottom: 61px;
@@ -42,10 +40,8 @@ fill: gray;
     margin: 0 auto;
     font-family: 'Montserrat';
     width: 180px;
-    font-weight: 800;
+    @include title();
     font-size: 20px;
-    line-height: 130%;
-    letter-spacing: 0.03em;
     text-align: center;
     color: #111518;
   }
@@ -108,10 +104,9 @@ fill: gray;
     margin-right: 10px;
   }
 
-  .reviews__item:hover{
-
-    transition-duration: 250ms; 
-    transition-timing-function: $time-function; 
+  .reviews__item:hover {
+    transition-duration: 250ms;
+    transition-timing-function: $time-function;
     transform: scale(1.25);
   }
 
@@ -201,7 +196,7 @@ fill: gray;
       text-align: left;
       justify-content: flex-start;
     }
-    
+
     .reviews__item:nth-child(n + 2) {
       display: block;
     }

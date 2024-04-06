@@ -47,10 +47,8 @@
     margin: 0 auto;
     width: 280px;
     margin-bottom: 25px;
-    font-weight: 800;
+    @include title();
     font-size: 14px;
-    line-height: 130%;
-    letter-spacing: 0.03em;
     text-align: center;
     color: #fff;
   }
@@ -107,11 +105,8 @@
     opacity: 9;
     &__title {
       width: 658px;
-      font-weight: 800;
       margin-bottom: 50px;
       font-size: 26px;
-      line-height: 130%;
-      letter-spacing: 0.03em;
       text-align: center;
       color: #fff;
     }
@@ -179,10 +174,7 @@
       width: 808px;
       margin-top: 100px;
       margin-bottom: 50px;
-      font-weight: 800;
       font-size: 46px;
-      line-height: 130%;
-      letter-spacing: 0.03em;
       text-align: center;
       color: #fff;
     }
@@ -190,7 +182,6 @@
     &__text {
       width: 1090px;
       margin-bottom: 56px;
-
       font-weight: 600;
       font-size: 30px;
       letter-spacing: 0.08em;

@@ -379,9 +379,9 @@ body {
 
 .hero__title {
   font-weight: 800;
-  font-size: 20px;
   line-height: 130%;
   letter-spacing: 0.03em;
+  font-size: 20px;
   color: #111518;
   margin-bottom: 8px;
 }
@@ -417,6 +417,17 @@ body {
   height: 48px;
   font-size: 12px;
   margin: 0 auto;
+  background-color: #ff6b09;
+  color: #FFFFFF;
+  border-radius: 4px;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 .hero__button:hover {
   background-color: #FFFFFF;
@@ -560,7 +571,6 @@ body {
 }
 
 .solving__title {
-  color: #FFFFFF;
   color: #FFFFFF;
   font-weight: 800;
   line-height: 130%;
@@ -1282,6 +1292,8 @@ body {
   padding-bottom: 30px;
   font-size: 20px;
   font-weight: 800;
+  line-height: 130%;
+  letter-spacing: 0.03em;
 }
 
 .teacher__img {
@@ -1474,9 +1486,10 @@ body {
   text-align: center;
   margin-bottom: 30px;
   font-weight: 800;
-  font-size: 26px;
   line-height: 130%;
   letter-spacing: 0.03em;
+  color: #111518;
+  font-size: 26px;
 }
 
 .fire__svg {
@@ -1547,10 +1560,7 @@ body {
   }
   .guarantee__title {
     margin-bottom: 50px;
-    font-weight: 800;
     font-size: 46px;
-    line-height: 130%;
-    letter-spacing: 0.03em;
   }
   .guarantee__wrap {
     margin-right: 30px;
@@ -1615,9 +1625,9 @@ body {
   font-family: "Montserrat";
   width: 180px;
   font-weight: 800;
-  font-size: 20px;
   line-height: 130%;
   letter-spacing: 0.03em;
+  font-size: 20px;
   text-align: center;
   color: #111518;
 }
@@ -2041,9 +2051,9 @@ body {
   width: 280px;
   margin-bottom: 25px;
   font-weight: 800;
-  font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.03em;
+  font-size: 14px;
   text-align: center;
   color: #fff;
 }
@@ -2116,11 +2126,8 @@ body {
   }
   .form__title {
     width: 658px;
-    font-weight: 800;
     margin-bottom: 50px;
     font-size: 26px;
-    line-height: 130%;
-    letter-spacing: 0.03em;
     text-align: center;
     color: #fff;
   }
@@ -2195,10 +2202,7 @@ body {
     width: 808px;
     margin-top: 100px;
     margin-bottom: 50px;
-    font-weight: 800;
     font-size: 46px;
-    line-height: 130%;
-    letter-spacing: 0.03em;
     text-align: center;
     color: #fff;
   }

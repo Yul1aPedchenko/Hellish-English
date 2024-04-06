@@ -8,11 +8,9 @@
   text-align: center;
   border: none;
   cursor: pointer;
-  transition: color 250ms ease-in-out;
-  transition: background-color 250ms ease-in-out;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
 }
 @mixin title() {
-  color: $secondaryTextColor;
   font-weight: 800;
   line-height: 130%;
   letter-spacing: 0.03em;

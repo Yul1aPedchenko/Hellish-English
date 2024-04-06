@@ -19,9 +19,7 @@
     position: relative;
   }
   &__title {
-    font-weight: 800;
-    line-height: 130%;
-    letter-spacing: 0.03em;
+    @include title();
     color: $secondaryTextColor;
     margin-bottom: 30px;
   }

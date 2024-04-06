@@ -3,9 +3,7 @@
   padding-bottom: 40px;
 }
 .activity__title {
-  font-weight: 800;
-  line-height: 130%;
-  letter-spacing: 0.03em;
+  @include title();
   text-align: center;
   color: $titleColor;
   margin-bottom: 30px;
