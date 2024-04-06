@@ -6,6 +6,9 @@
     align-items: center;
     width: 214px;
     margin: 0 auto;
+    &:hover {
+      transform: scale(1.4);
+    }
   }
   &__item:not(:last-child) {
     margin-bottom: 30px;
