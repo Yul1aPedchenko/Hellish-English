@@ -94,12 +94,14 @@
     padding-bottom: 280px;
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size: 407px 472px;
   }
   @supports (background-image: url(../img/solving/campfire-desktop.webp)) {
     .solving {
       background-image: url(../img/solving/campfire-desktop.webp);
       background-repeat: no-repeat;
       background-position: bottom right;
+      background-size: 407px 472px;
     }
   }
   @media (-webkit-min-device-pixel-ratio: 2),
@@ -112,12 +114,14 @@
       background-image: url(../img/solving/campfire-desktop@2x.png);
       background-repeat: no-repeat;
       background-position: bottom right;
+      background-size: 407px 472px;
     }
     @supports (background-image: url(../img/solving/campfire-desktop@2x.webp)) {
       .solving {
         background-image: url(../img/solving/campfire-desktop@2x.webp);
         background-repeat: no-repeat;
         background-position: bottom right;
+        background-size: 407px 472px;
       }
     }
   }

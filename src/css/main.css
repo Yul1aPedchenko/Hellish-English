@@ -360,7 +360,7 @@ body {
   background-image: url(../img/hero/people-bg-mobile@1x.png), url(../img/hero/wave-bg-mobile@1x.png);
   background-repeat: no-repeat;
   background-position: center bottom, top left;
-  background-size: auto, cover;
+  background-size: 208px 178px, cover;
   padding-bottom: 232px;
 }
 
@@ -368,20 +368,20 @@ body {
   .hero {
     background-image: url(../img/hero/people-bg-mobile@1x.webp), url(../img/hero/wave-bg-mobile@1x.webp);
     background-position: center bottom, top left;
-    background-size: auto, cover;
+    background-size: 208px 178px, cover;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/hero/people-bg-mobile@2x.png), url(../img/hero/wave-bg-mobile@2x.png);
     background-position: center bottom, top left;
-    background-size: auto, cover;
+    background-size: 208px 178px, cover;
   }
   @supports (background-image: url(../img/hero/people-bg-mobile@2x.webp), url(../img/hero/wave-bg-mobile@2x.webp)) {
     .hero {
       background-image: url(../img/hero/people-bg-mobile@2x.webp), url(../img/hero/wave-bg-mobile@2x.webp);
       background-position: center bottom, top left;
-      background-size: auto, cover;
+      background-size: 208px 178px, cover;
     }
   }
 }
@@ -460,14 +460,14 @@ body {
     background-image: url(../img/hero/people-bg-tablet@1x.png), url(../img/hero/wave-bg-tablet@1x.png);
     background-repeat: no-repeat;
     background-position: top right, top left;
-    background-size: auto, cover;
+    background-size: 370px 315px, cover;
     padding-bottom: 232px;
   }
   @supports (background-image: url(../img/hero/people-bg-tablet@1x.webp), url(../img/hero/wave-bg-tablet@1x.webp)) {
     .hero {
       background-image: url(../img/hero/people-bg-tablet@1x.webp), url(../img/hero/wave-bg-tablet@1x.webp);
       background-position: top right, top left;
-      background-size: auto, cover;
+      background-size: 370px 315px, cover;
     }
   }
 }
@@ -475,13 +475,13 @@ body {
   .hero {
     background-image: url(../img/hero/people-bg-tablet@2x.png), url(../img/hero/wave-bg-tablet@2x.png);
     background-position: top right, top left;
-    background-size: auto, cover;
+    background-size: 370px 315px, cover;
   }
   @supports (background-image: url(../img/hero/people-bg-tablet@2x.webp), url(../img/hero/wave-bg-tablet@2x.webp)) {
     .hero {
       background-image: url(../img/hero/people-bg-tablet@2x.webp), url(../img/hero/wave-bg-tablet@2x.webp);
       background-position: top right, top left;
-      background-size: auto, cover;
+      background-size: 370px 315px, cover;
     }
   }
 }
@@ -504,7 +504,7 @@ body {
     background-image: url(../img/hero/people-bg-desktop@1x.png), url(../img/hero/wave-bg-desktop@1x.png);
     background-repeat: no-repeat;
     background-position: center right, top left;
-    background-size: auto, cover;
+    background-size: 842px 718px, cover;
     padding-bottom: 232px;
     padding-top: 55px;
   }
@@ -512,7 +512,7 @@ body {
     .hero {
       background-image: url(../img/hero/people-bg-desktop@1x.webp), url(../img/hero/wave-bg-desktop@1x.webp);
       background-position: center right, top left;
-      background-size: auto, cover;
+      background-size: 842px 718px, cover;
     }
   }
 }
@@ -520,13 +520,13 @@ body {
   .hero {
     background-image: url(../img/hero/people-bg-desktop@2x.png), url(../img/hero/wave-bg-desktop@2x.png);
     background-position: center right, top left;
-    background-size: auto, cover;
+    background-size: 842px 718px, cover;
   }
   @supports (background-image: url(../img/hero/people-bg-desktop@2x.webp), url(../img/hero/wave-bg-desktop@2x.webp)) {
     .hero {
       background-image: url(../img/hero/people-bg-desktop@2x.webp), url(../img/hero/wave-bg-desktop@2x.webp);
       background-position: center right, top left;
-      background-size: auto, cover;
+      background-size: 842px 718px, cover;
     }
   }
 }
@@ -745,12 +745,14 @@ body {
     padding-bottom: 280px;
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size: 407px 472px;
   }
   @supports (background-image: url(../img/solving/campfire-desktop.webp)) {
     .solving {
       background-image: url(../img/solving/campfire-desktop.webp);
       background-repeat: no-repeat;
       background-position: bottom right;
+      background-size: 407px 472px;
     }
   }
 }
@@ -759,12 +761,14 @@ body {
     background-image: url(../img/solving/campfire-desktop@2x.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size: 407px 472px;
   }
   @supports (background-image: url(../img/solving/campfire-desktop@2x.webp)) {
     .solving {
       background-image: url(../img/solving/campfire-desktop@2x.webp);
       background-repeat: no-repeat;
       background-position: bottom right;
+      background-size: 407px 472px;
     }
   }
 }
@@ -982,6 +986,7 @@ body {
   background-repeat: no-repeat;
   background-position-y: 1460px;
   background-position-x: right;
+  background-size: 120px 137px;
   background-color: #111518;
   padding-top: 50px;
   padding-bottom: 550px;
@@ -1024,6 +1029,7 @@ body {
     background-image: url(../img/program/program-bg-mobile.webp);
     background-position-y: 1460px;
     background-position-x: right;
+    background-size: 120px 137px;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
@@ -1031,12 +1037,14 @@ body {
     background-image: url(../img/program/program-bg-mobile@2x.png);
     background-position-y: 1460px;
     background-position-x: right;
+    background-size: 120px 137px;
   }
   @supports (background-image: url(../img/program/program-bg-mobile@2x.webp)) {
     .program {
       background-image: url(../img/program/program-bg-mobile@2x.webp);
       background-position-y: 1460px;
       background-position-x: right;
+      background-size: 120px 137px;
     }
   }
 }
@@ -1180,6 +1188,8 @@ body {
   .program {
     background-image: url(../img/program/program-bg-tablet.png);
     background-position-y: 792px;
+    background-position-x: right;
+    background-size: 374px 273px;
     padding-top: 60px;
     padding-bottom: 371px;
     margin-bottom: 225px;
@@ -1205,6 +1215,7 @@ body {
       background-image: url(../img/program/program-bg-tablet.webp);
       background-position-y: 792px;
       background-position-x: right;
+      background-size: 374px 273px;
     }
   }
 }
@@ -1213,12 +1224,14 @@ body {
     background-image: url(../img/program/program-bg-tablet@2x.png);
     background-position-y: 792px;
     background-position-x: right;
+    background-size: 374px 273px;
   }
   @supports (background-image: url(../img/program/program-bg-tablet@2x.webp)) {
     .program {
       background-image: url(../img/program/program-bg-tablet@2x.webp);
       background-position-y: 792px;
       background-position-x: right;
+      background-size: 374px 273px;
     }
   }
 }
@@ -1294,6 +1307,7 @@ body {
     background-image: url(../img/program/program-bg-desktop.png);
     background-position-y: bottom;
     background-position-x: left;
+    background-size: 672px 502px;
     padding-top: 120px;
     padding-bottom: 326px;
     margin-bottom: 324px;
@@ -1312,6 +1326,7 @@ body {
       background-image: url(../img/program/program-bg-desktop.webp);
       background-position-y: bottom;
       background-position-x: left;
+      background-size: 672px 502px;
     }
   }
 }
@@ -1320,12 +1335,14 @@ body {
     background-image: url(../img/program/program-bg-desktop@2x.png);
     background-position-y: bottom;
     background-position-x: left;
+    background-size: 672px 502px;
   }
   @supports (background-image: url(../img/program/program-bg-desktop@2x.webp)) {
     .program {
       background-image: url(../img/program/program-bg-desktop@2x.webp);
       background-position-y: bottom;
       background-position-x: left;
+      background-size: 672px 502px;
     }
   }
 }
@@ -2263,18 +2280,18 @@ body {
   font-size: 14px;
 }
 @supports (background-image: url(../img/form/form-bg-mobile.webp)) {
-  .program {
+  .form {
     background-image: url(../img/form/form-bg-mobile.webp);
     background-size: cover;
   }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-  .program {
+  .form {
     background-image: url(../img/form/form-bg-mobile@2x.png);
     background-size: cover;
   }
   @supports (background-image: url(../img/form/form-bg-mobile@2x.webp)) {
-    .program {
+    .form {
       background-image: url(../img/form/form-bg-mobile@2x.webp);
       background-size: cover;
     }
@@ -2358,7 +2375,7 @@ body {
     color: #fff;
   }
   @supports (background-image: url(../img/form/form-bg-tablet.webp)) {
-    .program {
+    .form {
       background-image: url(../img/form/form-bg-tablet.webp);
       background-size: cover;
       background-position: right;
@@ -2366,13 +2383,13 @@ body {
   }
 }
 @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
-  .program {
+  .form {
     background-image: url(../img/form/form-bg-tablet@2x.png);
     background-size: cover;
     background-position: right;
   }
   @supports (background-image: url(../img/form/form-bg-tablet@2x.webp)) {
-    .program {
+    .form {
       background-image: url(../img/form/form-bg-tablet@2x.webp);
       background-size: cover;
       background-position: right;
@@ -2458,7 +2475,7 @@ body {
     color: #fff;
   }
   @supports (background-image: url(../img/form/form-bg-desktop.webp)) {
-    .program {
+    .form {
       background-image: url(../img/form/form-bg-desktop.webp);
       background-size: cover;
       background-position: right;
@@ -2466,13 +2483,13 @@ body {
   }
 }
 @media screen and (min-width: 1344px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1344px) and (min-resolution: 192dpi), screen and (min-width: 1344px) and (min-device-pixel-ratio: 2), screen and (min-width: 1344px) and (min-resolution: 2dppx) {
-  .program {
+  .form {
     background-image: url(../img/form/form-bg-desktop@2x.png);
     background-size: cover;
     background-position: right;
   }
   @supports (background-image: url(../img/form/form-bg-desktop@2x.webp)) {
-    .program {
+    .form {
       background-image: url(../img/form/form-bg-desktop@2x.webp);
       background-size: cover;
       background-position: right;
