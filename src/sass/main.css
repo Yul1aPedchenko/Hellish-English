@@ -509,9 +509,6 @@ body {
   width: 214px;
   margin: 0 auto;
 }
-.advantages__item:hover {
-  transform: scale(1.4);
-}
 .advantages__item:not(:last-child) {
   margin-bottom: 30px;
 }
