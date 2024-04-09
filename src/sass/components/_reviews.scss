@@ -35,6 +35,7 @@
   }
   &__facebook {
     margin-top: 18px;
+    cursor: pointer;
   }
   &__title {
     margin: 0 auto;
@@ -90,6 +91,10 @@
     height: 90px;
   }
   &__link {
+    &:hover{
+        color: $colorHoverButton;
+    }
+    transition: color 250ms ease-in-out;
     text-decoration-line: underline;
     display: flex;
     justify-content: center;

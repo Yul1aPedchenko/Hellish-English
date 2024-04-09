@@ -35,8 +35,13 @@
     font-size: 14px;
     line-height: 200%;
     color: #b9b9b9;
+    transition: color 250ms ease-in-out;
+    &:hover{
+      color: white;
+    }
   }
   &__instagram {
+    cursor: pointer;
     margin: 29px auto;
   }
 }
