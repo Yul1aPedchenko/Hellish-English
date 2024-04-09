@@ -2313,7 +2313,6 @@ body {
   line-height: 200%;
   color: #b9b9b9;
   transition: color 250ms ease-in-out;
-  background-color: #111518;
 }
 .footer__text:hover {
   color: white;
