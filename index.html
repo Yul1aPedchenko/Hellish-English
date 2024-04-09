@@ -28,7 +28,7 @@
   <body>
     <header class="header" >
   <div class="header__menu-wrap">
-    <a href="#" class="header__mobile-logo" aria-label="logo">
+    <a href="./index.html" class="header__mobile-logo" aria-label="logo">
       <svg class="header__mobile-logo-icon">
         <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-logo"></use>
       </svg>
@@ -47,7 +47,7 @@
   </div>
   <div class="container header__div">
     <div class="header__wrap">
-      <a href="#" class="header__logo" aria-label="logo">
+      <a href="./index.html" class="header__logo" aria-label="logo">
         <svg class="header__computer-logo">
           <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-logo"></use>
         </svg>
@@ -87,7 +87,7 @@
   <div class="header__mobile-wrap">
     <ul class="header__mobile-list">
       <li class="header__mobile-item">
-        <a href="#" class="header__mobile-link" aria-label="menu nav">Studying program</a>
+        <a href="#program" class="header__mobile-link" aria-label="menu nav">Studying program</a>
       </li>
       <li class="header__mobile-item">
         <a href="#" class="header__mobile-link" aria-label="menu nav">About</a>
@@ -286,7 +286,7 @@
   </div>
 </section>
 
-    <section class="program">
+    <section class="program" id="program">
   <div class="program__wrap">
     <div class="program__big-line"></div>
     <div class="container">
@@ -923,7 +923,7 @@
           <input type="text" placeholder="Імʼя*" id="email" class="form__input" maxlength="25" minlength="2" pattern="[A-Za-zА-Яа-яЁё]"/> 
         </label> 
         <label class="form__label"> 
-          <input type="number" placeholder="Телефон*" id="phone" class="form__input"/> 
+          <input type="tel" placeholder="Телефон*" id="phone" class="form__input" pattern="\d [0-9]"/> 
         </label> 
        
         <button class="form__button" type="submit" form-modal-open aria-label="open-form">I WANT A FREE LESSON</button> 
@@ -949,7 +949,7 @@
     <section class="footer">
   <div class="container">
     <div class="footer__wrap">
-      <a href="../index.html" class="footer__logo" aria-label="logo">
+      <a href="./index.html" class="footer__logo" aria-label="logo">
         <svg width="128px" height="45px">
           <use href="/Hellish-English/assets/symbol-defs-5a872032.svg#icon-logo"></use>
         </svg>
@@ -987,7 +987,7 @@
   </div>
   <div class="footer__rights">
     <div class="container">
-      <p class="footer__text">© All rights reserved, 2022</p>
+      <a href="#" aria-label="rights" class="footer__text">© All rights reserved, 2022</a>
     </div>
   </div>
 </section>
