@@ -637,6 +637,10 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .solving {
+    padding-bottom: 192px;
+    margin-bottom: 211px;
+  }
   .solving__title {
     width: 450px;
     font-weight: 800;
@@ -650,6 +654,7 @@ body {
   }
   .solving__benefits {
     width: 738px;
+    padding: 0;
   }
   .solving__list {
     display: flex;
@@ -666,6 +671,7 @@ body {
   .solving {
     background-image: url(../img/solving/campfire-desktop.png);
     padding-bottom: 280px;
+    margin-bottom: 280px;
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 407px 472px;
@@ -749,7 +755,6 @@ body {
   }
 }
 .activity {
-  padding-top: 70px;
   padding-bottom: 40px;
 }
 
